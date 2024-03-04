@@ -1,0 +1,96 @@
+{
+  "HERO_SECTION": {
+    "INSIGHTS": "Real time crypto insights: <span>TRACK,\u00a0TRADE,\u00a0TRIUMPH!</span>",
+    "TITLE_1": "Unlock succes\u00a0with",
+    "TITLE_2": "Crypto\u00a0Sanctuary",
+    "SUBTITLE": "We track <strong>millions of transactions</strong> daily on Binance. Uniswap, and Kucoin in real-time, giving you <strong>priority access</strong> to significant market movements.",
+    "ABOUT_THE_PROJECT": "About the project",
+    "READ_HOW_IT_WORKS": "Read how it works"
+  },
+  "ABOUT_SECTION": {
+    "TEXT_1": "Join our innovative Discord server to receive real-time information and analyses of transactions on Binance, Uniswap, and Kucoin.",
+    "TEXT_2": "Stay informed with instant updates on market changes and trends, including price jumps, sudden volume fluctuations, etc.",
+    "TEXT_3": "From experienced traders to newcomers in the world of cryptocurrencies, The\u00a0Crypto Sanctuary offers invaluable support and insights at every level. Lead the market - join now!"
+  },
+  "FOOTER_SECTION": {
+    "COPYRIGHT": "Copyright © {{year}} Crypto Sanctuary. All rights reserved.",
+    "SOCIAL_MEDIA": "Check our social media:"
+  },
+  "RISK_NOTICE_SECTION": {
+    "TITLE": "RISK NOTICE",
+    "TEXT_1": "This website provides information about cryptocurrencies and entities involved in trading these digital assets. Cryptocurrencies are complex instruments and carry a high risk of monetary loss. It is important to carefully consider whether you comprehend how cryptocurrencies operate and if you can afford the high risk of losing your money.",
+    "TEXT_2": "Crypto Sanctuary advises you to undertake your own research before making any investment decisions and to avoid investing in cryptocurrencies without a complete understanding of their mechanisms and the risks involved."
+  },
+  "GENERAL_INFORMATION_SECTION": {
+    "TITLE": "GENERAL INFORMATION",
+    "TEXT_1": "Crypto Sanctuary goes beyond the typical signal-generating tools. We present crucial changes in price, volume, amplitudes, etc., across various categories and time intervals from different exchanges.",
+    "TEXT_2": "Is a signal in the Price Jumps or High Amplitudes category the beginning of a substantial price rally, lifting prices multiple times? Or is it a momentary pump and dump? Does a sudden volume surge indicate the awakening of a dormant gem with the potential for huge profits, or is it just a momentary spike? These are assessments you need to make. From our experience, observing these signals builds expertise. You start recognizing patterns, discovering coins with cyclical price rallies, identifying entry points, and determining where to set selling orders. Finding such coins among a thousand others is very difficult and time-consuming. Recognizing the start of their price rally on your own is practically impossible. On the other hand, we provide you with information about it within the first minute of their renewed surge through a signal from the appropriate category – that is something invaluable. And with us, you get this either for free (over half of the available categories) or for $9.9 or $14.9 per month (certain time intervals for Binance and Uniswap exchanges are available exclusively in the premium option). Kucoin exchange is entirely free.",
+    "TEXT_3": "We don't promise you'll multiply your capital several times in a few days. However, we're confident that the information we provide offers insights into all significant movements, making it easier to find coins worth trading.",
+    "TEXT_4": "By default, we've turned off notifications on our Discord (there's a lot of them, and constant alerts can be annoying). After exploring what our various categories from different exchanges and time frames offer, we suggest you decide which ones interest you and set up notifications accordingly (option available in channel settings).",
+    "TEXT_5": "We hope you'll join us and contribute to the project's development (more exchanges and a greater variety of categories coming soon:)). If you appreciate what we do, find it useful, and it helps you in trading, you can also support us by creating an account on Binance or Kucoin using our referral link. For those who do so and actively trade on such an account, in addition to the standard commission kickback, we have additional surprise rewards planned.",
+    "FOOTER_1": "Wishing you success!",
+    "FOOTER_2": "Crypto Sanctuary Team"
+  },
+  "NUMBERS_SECTION": {
+    "EXCHANGES": "Exchanges",
+    "ACTIVE_CHANNELS": "Active channels",
+    "TRANSACTIONS_PER_DAY": "Transactions per day",
+    "SIGNALS_PER_DAY": "Signals per day",
+    "DESCRIPTION": "Explore dozens of categories with <strong>real-time signals</strong>. Click on any of them and verify on the exchange that it actually happened! Discover the power of real-time insights <strong>for free</strong>!",
+    "TITLE": "Most of the information we provide\u00a0is\u00a0free. You\u00a0can\u00a0check it out here."
+  },
+  "OUR_COIN_SECTION": {
+    "TITLE": "Stay tuned. The issuance of\u00a0our\u00a0token\u00a0is\u00a0coming\u00a0soon.",
+    "DESCRIPTION": "In our referral program, by recommending our server, you can earn tokens. These tokens will grant discounts on our services from premium categories."
+  },
+  "CATEGORIES_SECTION": {
+    "TITLE": "Explore our categories",
+    "DESCRIPTION": "Explore dozens of categories with <strong>real-time signals</strong>. Click on any of them and verify on the exchange that it actually happened!",
+    "PRICE_JUMPS": {
+      "NAME": "Price jumps",
+      "TITLE": "Stay ahead of the game with real-time data on trading volume surges!",
+      "DESCRIPTION": {
+        "TEXT_1": "Sudden Volume Surges Categories showcase instances of abrupt increases in trading volumes within specified time intervals (1 minute, 5 minutes, 15 minutes, and 1 hour). These highlight sudden and significant rises in trading activity, providing valuable insights for traders.",
+        "TEXT_2": "For Binance and Kucoin, the sudden volume surges categories are organized by pairs with BTC and USDT, and on Uniswap, they are paired with wETH.",
+        "TEXT_3": "Additionally, we provide a detailed overview of how these volume changes manifested in other time intervals, offering a comprehensive understanding of market dynamics."
+      }
+    },
+    "HIGH_AMPLITUDES": {
+      "NAME": "Price Amplitudes",
+      "TITLE": "Experience the thrill of trading with our High Amplitudes Categories!",
+      "DESCRIPTION": {
+        "TEXT_1": "Experience the thrill of trading with our High Amplitudes Categories, showcasing the most substantial price swings within specific time intervals (1 minute, 5 minutes, 15 minutes, and 1 hour). These highlight significant movements that might revert close to the starting point by the interval&apos;s end.",
+        "TEXT_2": "On Binance and Kucoin, High Amplitude Categories are categorized by pairs with BTC and USDT, and on Uniswap, they are paired with wETH.",
+        "TEXT_3": "Gain deeper insights into these price changes across various time intervals and observe the corresponding volume for both category types. Elevate your trading experience with comprehensive data."
+      }
+    },
+    "TOP_GAINERS_LOSERS": {
+      "NAME": "Top Gainers/Losers",
+      "TITLE": "Uncover trading opportunities with our Top Gainers/Losers category!",
+      "DESCRIPTION": {
+        "TEXT_1": "Uncover trading opportunities with our Top Gainers/Losers category, where we present coins that experienced the most significant price increases and decreases at the end of specific periods (ranking intervals: 1 minute, 5 minutes, 15 minutes, and 1 hour). These rankings are determined by Price Jumps.",
+        "TEXT_2": "For Binance and Kucoin, these categories are segmented into pairs with BTC and USDT, while on Uniswap, they are paired with wETH.",
+        "TEXT_3": "Explore how these price changes performed across different time intervals, coupled with insights into the volume from the specified time interval. Elevate your trading strategy with a comprehensive view of market dynamics!"
+      }
+    },
+    "SUDDEN_VOLUME_SURGES": {
+      "NAME": "Sudden Volume Surges",
+      "TITLE": "Sudden Volume Surges Categories!",
+      "DESCRIPTION": {
+        "TEXT_1": "Sudden Volume Surges Categories showcase instances of abrupt increases in trading volumes within specified time intervals (1 minute, 5 minutes, 15 minutes, and 1 hour). These highlight sudden and significant rises in trading activity, providing valuable insights for traders.",
+        "TEXT_2": "For Binance and Kucoin, the sudden volume surges categories are organized by pairs with BTC and USDT, and on Uniswap, they are paired with wETH.",
+        "TEXT_3": "Additionally, we provide a detailed overview of how these volume changes manifested in other time intervals, offering a comprehensive understanding of market dynamics. Stay ahead of the game with real-time data on trading volume surges!"
+      }
+    },
+    "MACD": {
+      "NAME": "MACD",
+      "TITLE": "Dive into market analysis with our MACD!",
+      "DESCRIPTION": {
+        "TEXT_1": "Dive into market analysis with our MACD (Moving Average Convergence Divergence) category, where we unveil the status of this significant indicator.",
+        "TEXT_2": "Discover whether the MACD line has crossed the signal line from below or above – a pivotal event in deciphering market trends. Our advanced calculation method not only identifies the crossover but also measures its strength. We&apos;ve set precise thresholds to minimize market noise and ensure relevance.",
+        "TEXT_3": "On Binance, we categorize these occurrences in relation to BTC and USDT channels, while on Uniswap, categorization is done in relation to wETH. Stay informed about crucial market movements with our detailed MACD analysis!"
+      }
+    }
+  },
+  "JOIN_OUR_DISCORD": "Join our Discord!"
+}
