@@ -30,7 +30,7 @@ const config: Config = {
         "4xl": ["3.2rem", "3.7rem"],
       },
       colors: {
-        primary: { ...colors.indigo, DEFAULT: colors.indigo[600] },
+        primary: { ...colors.sky, DEFAULT: colors.sky[600] },
         secondary: { ...colors.fuchsia, DEFAULT: colors.fuchsia[600] },
 
         success: { ...colors.emerald, DEFAULT: colors.emerald[600] },
@@ -39,19 +39,19 @@ const config: Config = {
         neutral: { ...colors.slate, DEFAULT: colors.slate[600] },
 
         bgColor: {
-          light: colors.indigo[800],
-          DEFAULT: colors.indigo[900],
-          dark: colors.indigo[950],
+          light: colors.white,
+          DEFAULT: colors.slate[50],
+          dark: colors.slate[100],
         },
         borderColor: {
-          light: `${colors.indigo[100]}6A`,
-          DEFAULT: `${colors.indigo[100]}44`,
-          dark: `${colors.indigo[100]}1A`,
+          light: `${colors.fuchsia[100]}6A`,
+          DEFAULT: `${colors.fuchsia[100]}44`,
+          dark: `${colors.fuchsia[100]}1A`,
         },
         textColor: {
-          light: colors.slate[50],
-          DEFAULT: colors.slate[300],
-          dark: colors.slate[400],
+          light: colors.slate[600],
+          DEFAULT: colors.slate[700],
+          dark: colors.slate[800],
         },
       },
       backgroundImage: {

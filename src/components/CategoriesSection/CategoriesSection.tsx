@@ -2,12 +2,12 @@
 import useTranslation from "next-translate/useTranslation";
 import Trans from "next-translate/Trans";
 import { useEffect, useRef, useState } from "react";
-import { DiscordIcon } from "../icons/DiscordIcon";
 import { Section } from "../Section/Section";
+import { PrimaryActionButton } from "../PrimaryActionButton/PrimaryActionButton";
 import { CardButton } from "./CardButton";
 import { useCategories } from "./useCategories";
 import { CategoryItem } from "./CategoryItem";
-import { Button, Text, Title } from "@/ui";
+import { Text, Title } from "@/ui";
 
 export const CategoriesSection = () => {
   const { t } = useTranslation("home");
@@ -80,16 +80,7 @@ export const CategoriesSection = () => {
             </CategoryItem>
           </div>
         </div>
-        <a
-          href="https://discord.gg/rYmBNuF6XY"
-          target="_blank"
-          title={t("JOIN_OUR_DISCORD")}
-        >
-          <Button>
-            <DiscordIcon className="animate-wiggle" width={20} height={20} />
-            {t("JOIN_OUR_DISCORD")}
-          </Button>
-        </a>
+        <PrimaryActionButton />
       </div>
     </Section>
   );

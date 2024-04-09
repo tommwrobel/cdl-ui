@@ -17,7 +17,7 @@ export const CategoryItem = ({
       <div
         {...props}
         className={cn(
-          "bg-bgColor/20 h-full relative border-2 border-transparent hover:border-secondary duration-300 w-full overflow-hidden p-12 flex flex-col md:flex-row gap-10 rounded-[48px] backdrop-blur-xs items-center md:items-start",
+          "bg-bgColor/50 h-full relative border-2 border-neutral-400/50 border-dashed hover:border-primary duration-300 w-full overflow-hidden p-12 flex flex-col md:flex-row gap-10 rounded-[24px] backdrop-blur-xs items-center md:items-start",
           props.className
         )}
       >
@@ -30,8 +30,6 @@ export const CategoryItem = ({
           </Title>
           {children}
         </div>
-        <div className="absolute w-72 h-72 -right-36 -bottom-36 bg-primary rounded-full blur-xl opacity-10 group-hover:opacity-20 duration-500" />
-        <div className="absolute w-72 h-72 -left-36 -top-36 bg-secondary rounded-full blur-xl opacity-10 group-hover:opacity-20 duration-500" />
       </div>
     </div>
   );

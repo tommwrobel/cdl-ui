@@ -1,53 +1,56 @@
 {
   "HERO_SECTION": {
-    "INSIGHTS": "Real time crypto insights: <span>TRACK,\u00a0TRADE,\u00a0TRIUMPH!</span>",
-    "TITLE_1": "Unlock succes\u00a0with",
-    "TITLE_2": "Crypto\u00a0Sanctuary",
-    "SUBTITLE": "We track <strong>millions of transactions</strong> daily on Binance. Uniswap, and Kucoin in real-time, giving you <strong>priority access</strong> to significant market movements.",
+    "INSIGHTS": "Bismuth - Python and Blockchain mixture!",
+    "TITLE": "Bismuth - The First Python Blockchain Platform.",
+    "SUBTITLE": "You missed out on Bitcoin, Ethereum, Dogecoin, and Shiba Inu? <strong>Don't miss out on Bismuth</strong>. It's a coin with its own blockchain backed by real, useful technology!",
     "ABOUT_THE_PROJECT": "About the project",
     "READ_HOW_IT_WORKS": "Read how it works"
   },
   "ABOUT_SECTION": {
-    "TEXT_1": "Join our innovative Discord server to receive real-time information and analyses of transactions on Binance, Uniswap, and Kucoin.",
-    "TEXT_2": "Stay informed with instant updates on market changes and trends, including price jumps, sudden volume fluctuations, etc.",
-    "TEXT_3": "From experienced traders to newcomers in the world of cryptocurrencies, The\u00a0Crypto Sanctuary offers invaluable support and insights at every level. Lead the market - join now!"
+    "TEXT_1": "Bismuth is an open-source protocol and a platform, created in the world’s most popular and fastest growing programming language - Python (approx. 10M programmers - potential base of Bismuth blockchain apps creators).",
+    "TEXT_2_1": "It is a hidden gem and its value is not fully discovered yet (market cap is close to 1/100,000 of ETH, 800k usd market cap - April 2024).",
+    "TEXT_2_2": "Projects with their own blockchain, once noticed by the market and supported by enough users, can skyrocket. Solana is a great example where the price jumped from $0.5 to $259 in just over a year.",
+    "TEXT_3_1": "There is a staking option similar to ETHv2. You keep the funds in your wallet and you can withdraw them anytime.",
+    "TEXT_3_2": "Moreover, as there are two separate chains (PoW and PoS) - Bismuth is not vulnerable to 51% attack. Current staking rate of return is approximately 20%."
   },
   "FOOTER_SECTION": {
-    "COPYRIGHT": "Copyright © {{year}} Crypto Sanctuary. All rights reserved.",
+    "COPYRIGHT": "Copyright © {{year}} BismuthTechGem. All rights reserved.",
     "SOCIAL_MEDIA": "Check our social media:"
   },
   "RISK_NOTICE_SECTION": {
     "TITLE": "RISK NOTICE",
     "TEXT_1": "This website provides information about cryptocurrencies and entities involved in trading these digital assets. Cryptocurrencies are complex instruments and carry a high risk of monetary loss. It is important to carefully consider whether you comprehend how cryptocurrencies operate and if you can afford the high risk of losing your money.",
-    "TEXT_2": "Crypto Sanctuary advises you to undertake your own research before making any investment decisions and to avoid investing in cryptocurrencies without a complete understanding of their mechanisms and the risks involved."
+    "TEXT_2": "BismuthTechGem advises you to undertake your own research before making any investment decisions and to avoid investing in cryptocurrencies without a complete understanding of their mechanisms and the risks involved."
   },
   "GENERAL_INFORMATION_SECTION": {
     "TITLE": "GENERAL INFORMATION",
-    "TEXT_1": "Crypto Sanctuary goes beyond the typical signal-generating tools. We present crucial changes in price, volume, amplitudes, etc., across various categories and time intervals from different exchanges.",
-    "TEXT_2": "Is a signal in the Price Jumps or High Amplitudes category the beginning of a substantial price rally, lifting prices multiple times? Or is it a momentary pump and dump? Does a sudden volume surge indicate the awakening of a dormant gem with the potential for huge profits, or is it just a momentary spike? These are assessments you need to make. From our experience, observing these signals builds expertise. You start recognizing patterns, discovering coins with cyclical price rallies, identifying entry points, and determining where to set selling orders. Finding such coins among a thousand others is very difficult and time-consuming. Recognizing the start of their price rally on your own is practically impossible. On the other hand, we provide you with information about it within the first minute of their renewed surge through a signal from the appropriate category – that is something invaluable. And with us, you get this either for free (over half of the available categories) or for $9.9 or $14.9 per month (certain time intervals for Binance and Uniswap exchanges are available exclusively in the premium option). Kucoin exchange is entirely free.",
-    "TEXT_3": "We don't promise you'll multiply your capital several times in a few days. However, we're confident that the information we provide offers insights into all significant movements, making it easier to find coins worth trading.",
-    "TEXT_4": "By default, we've turned off notifications on our Discord (there's a lot of them, and constant alerts can be annoying). After exploring what our various categories from different exchanges and time frames offer, we suggest you decide which ones interest you and set up notifications accordingly (option available in channel settings).",
-    "TEXT_5": "We hope you'll join us and contribute to the project's development (more exchanges and a greater variety of categories coming soon:)). If you appreciate what we do, find it useful, and it helps you in trading, you can also support us by creating an account on Binance or Kucoin using our referral link. For those who do so and actively trade on such an account, in addition to the standard commission kickback, we have additional surprise rewards planned.",
+    "TEXT_1": "In the case of Bismuth, we are currently planning a wide range of activities. You can find current information about these activities on our X (Twitter). As I believe that real technology and consequently utility are fundamental for projects aiming for long-term success in the market, we are focusing on developing cooperation with Python developers who would like to use. Bismuth technology to integrate their projects with the blockchain. Therefore, if you are a Python developer, please send us information about the project you would like to integrate with the blockchain, and we will not only help but also provide a free starter package of BIS coins for the best projects that you can use within your ecosystem. Bismuth is safe. It supports multiple cryptographic schemes, signing methods, and address formats to protect users from potential future quantum computing attacks. The mix includes RSA, ECDSA (SECP256k1), and ED25519.",
+    "TEXT_2": "We hope you'll join us and contribute to the project's development (more exchanges and a greater variety of categories coming soon:)). If you appreciate what we do, find it useful, and it helps you in trading, you can also support us by creating an account on Binance or Kucoin using our referral link. For those who do so and actively trade on such an account, in addition to the standard commission kickback, we have additional surprise rewards planned.",
+    "TEXT_3": "We also understand that for most investors, the price growth of the coin matters. When we start our promotion of Bismuth, the price fluctuates around 2-3 cents per unit. This gives a market cap BELOW 1M USD! I don't think we need to explain to anyone what the growth potential is for such an advanced project with such a low starting market cap.",
     "FOOTER_1": "Wishing you success!",
-    "FOOTER_2": "Crypto Sanctuary Team"
+    "FOOTER_2": "BismuthTechGem Team"
+  },
+  "LINKS_SECTION": {
+    "TITLE": "Get started today and become part of our vibrant community!"
   },
   "NUMBERS_SECTION": {
     "EXCHANGES": "Exchanges",
-    "ACTIVE_CHANNELS": "Active channels",
-    "TRANSACTIONS_PER_DAY": "Transactions per day",
-    "SIGNALS_PER_DAY": "Signals per day",
-    "DESCRIPTION": "Explore dozens of categories with <strong>real-time signals</strong>. Click on any of them and verify on the exchange that it actually happened! Discover the power of real-time insights <strong>for free</strong>!",
-    "TITLE": "Most of the information we provide\u00a0is\u00a0free. You\u00a0can\u00a0check it out here."
+    "PRICE_JUMPS": "Potential price jump",
+    "PROGRAMMERS": "Potential programmers",
+    "WORKING_DAPPS": "Working Dapps",
+    "TITLE": "Python: The Universal Language for Blockchain Integration",
+    "DESCRIPTION_1": "Due to its nature in Python, millions of potential users/programmers around the world can use it without having to learn an additional programming language.",
+    "DESCRIPTION_2": "It allows the integration of different Python-based projects like applications and games with the blockchain. Programmers do not have to learn a new programming language (it is necessary with other blockchains like Ethereum)."
   },
   "OUR_COIN_SECTION": {
-    "TITLE": "Stay tuned. The issuance of our token is coming soon.",
-    "DESCRIPTION": "In our referral program, by recommending our server, you can earn tokens. These tokens will grant discounts on our services from premium categories."
+    "TITLE": "Why do we believe that Bismuth can achieve enormous success?",
+    "DESCRIPTION": "We believe that there are few projects in the crypto market as technologically advanced as Bismuth. In our opinion, Bismuth currently only needs support in marketing and showcasing itself to potential users (Python developers) and investors (coin buyers). Providing professional support in these segments will open up a bright future for it."
   },
   "CATEGORIES_SECTION": {
-    "TITLE": "Explore our categories",
-    "DESCRIPTION": "Explore dozens of categories with <strong>real-time signals</strong>. Click on any of them and verify on the exchange that it actually happened!",
-    "PRICE_JUMPS": {
-      "NAME": "Price jumps",
+    "TITLE": "Learn more about Bismuth",
+    "DESCRIPTION": "Wondering which technologies will revolutionize the world in the coming years? Look no further! Bismuth (BIS) is a groundbreaking Python-based blockchain platform that's bound to make waves!",
+    "CATEGORY_1": {
+      "NAME": "Tech Info",
       "TITLE": "Stay ahead of the game with real-time data on trading volume surges!",
       "DESCRIPTION": {
         "TEXT_1": "Sudden Volume Surges Categories showcase instances of abrupt increases in trading volumes within specified time intervals (1 minute, 5 minutes, 15 minutes, and 1 hour). These highlight sudden and significant rises in trading activity, providing valuable insights for traders.",
@@ -55,8 +58,8 @@
         "TEXT_3": "Additionally, we provide a detailed overview of how these volume changes manifested in other time intervals, offering a comprehensive understanding of market dynamics."
       }
     },
-    "HIGH_AMPLITUDES": {
-      "NAME": "Price Amplitudes",
+    "CATEGORY_2": {
+      "NAME": "Tesla App",
       "TITLE": "Experience the thrill of trading with our High Amplitudes Categories!",
       "DESCRIPTION": {
         "TEXT_1": "Experience the thrill of trading with our High Amplitudes Categories, showcasing the most substantial price swings within specific time intervals (1 minute, 5 minutes, 15 minutes, and 1 hour). These highlight significant movements that might revert close to the starting point by the interval&apos;s end.",
@@ -64,8 +67,8 @@
         "TEXT_3": "Gain deeper insights into these price changes across various time intervals and observe the corresponding volume for both category types. Elevate your trading experience with comprehensive data."
       }
     },
-    "TOP_GAINERS_LOSERS": {
-      "NAME": "Top Gainers/Losers",
+    "CATEGORY_3": {
+      "NAME": "DocShield",
       "TITLE": "Uncover trading opportunities with our Top Gainers/Losers category!",
       "DESCRIPTION": {
         "TEXT_1": "Uncover trading opportunities with our Top Gainers/Losers category, where we present coins that experienced the most significant price increases and decreases at the end of specific periods (ranking intervals: 1 minute, 5 minutes, 15 minutes, and 1 hour). These rankings are determined by Price Jumps.",
@@ -73,8 +76,8 @@
         "TEXT_3": "Explore how these price changes performed across different time intervals, coupled with insights into the volume from the specified time interval. Elevate your trading strategy with a comprehensive view of market dynamics!"
       }
     },
-    "SUDDEN_VOLUME_SURGES": {
-      "NAME": "Sudden Volume Surges",
+    "CATEGORY_4": {
+      "NAME": "Hyper Nodes",
       "TITLE": "Sudden Volume Surges Categories!",
       "DESCRIPTION": {
         "TEXT_1": "Sudden Volume Surges Categories showcase instances of abrupt increases in trading volumes within specified time intervals (1 minute, 5 minutes, 15 minutes, and 1 hour). These highlight sudden and significant rises in trading activity, providing valuable insights for traders.",
@@ -82,8 +85,8 @@
         "TEXT_3": "Additionally, we provide a detailed overview of how these volume changes manifested in other time intervals, offering a comprehensive understanding of market dynamics. Stay ahead of the game with real-time data on trading volume surges!"
       }
     },
-    "MACD": {
-      "NAME": "MACD",
+    "CATEGORY_5": {
+      "NAME": "Tech GEM",
       "TITLE": "Dive into market analysis with our MACD!",
       "DESCRIPTION": {
         "TEXT_1": "Dive into market analysis with our MACD (Moving Average Convergence Divergence) category, where we unveil the status of this significant indicator.",
@@ -92,5 +95,5 @@
       }
     }
   },
-  "JOIN_OUR_DISCORD": "Join our Discord!"
+  "FOLLOW_TWITTER": "Follow on X/Twitter"
 }

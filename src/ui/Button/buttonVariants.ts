@@ -4,14 +4,14 @@ export const buttonVariants = cva(
   [
     "transition-all inline-flex items-center justify-center whitespace-nowrap rounded-md text-md font-medium tracking-wide duration-150",
     "focus-visible:outline-0 focus-visible:ring-2 focus-visible:ring-primary/75",
-    "disabled:pointer-events-none disabled:opacity-40 text-textColor-light shrink-0 active:scale-95",
+    "disabled:pointer-events-none disabled:opacity-40 text-neutral-50 shrink-0 active:scale-95",
   ],
   {
     variants: {
       variant: {
         default: "bg-primary hover:bg-primary-500 active:bg-primary-600",
         outline: [
-          "border border-primary/50 hover:border-primary-500 text-textColor hover:text-textColor-light active:bg-primary/25 hover:bg-primary/15",
+          "border border-neutral/25 border-dashed hover:border-primary-500 text-textColor-light hover:text-textColor-dark active:bg-primary/25 hover:bg-primary/15",
         ],
         danger: "bg-danger text-white hover:bg-danger-700 active:bg-danger-600",
         success:
@@ -19,13 +19,13 @@ export const buttonVariants = cva(
         warning:
           "bg-warning text-white hover:bg-warning-700 active:bg-warning-600",
         ghost: [
-          "text-textColor hover:bg-neutral/25 hover:text-textColor-light active:bg-transparent",
+          "text-textColor hover:bg-neutral-400/25 hover:text-textColor-dark active:bg-neutral-300/25",
         ],
       },
       size: {
-        sm: "h-9 px-3 gap-2 rounded-xl",
-        md: "h-12 px-4 gap-2 rounded-2xl",
-        lg: "h-16 px-6 gap-3 rounded-2xl",
+        sm: "h-9 px-3 gap-2 rounded-md",
+        md: "h-12 px-4 gap-2 rounded-lg",
+        lg: "h-16 px-6 gap-3 rounded-lg",
       },
       icon: { true: "", false: "" },
       fullWidth: { true: "w-full", false: "" },

@@ -6,16 +6,18 @@ import { RiskNoticeSection } from "../components/RiskNoticeSection/RiskNoticeSec
 import { FooterSection } from "../components/FooterSection/FooterSection";
 import { InformationSection } from "../components/InformationSection/InformationSection";
 import { OurCoinSection } from "../components/OurCoinSection/OurCoinSection";
+import { LinksSection } from "../components/LinksSection/LinksSection";
 
 export default function Home() {
   return (
-    <main className="bg-bg-element bg-no-repeat bg-right-top bg-fixed snap-y snap-mandatory overflow-y-scroll h-screen scroll-smooth">
+    <main className="bg-bg-element bg-no-repeat bg-left-top bg-fixed snap-y snap-mandatory overflow-y-scroll h-screen scroll-smooth">
       <HeroSection />
       <AboutSection />
       <NumbersSection />
       <CategoriesSection />
       <OurCoinSection />
       <InformationSection />
+      <LinksSection />
       <RiskNoticeSection />
       <FooterSection />
     </main>

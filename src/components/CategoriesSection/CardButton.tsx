@@ -15,7 +15,8 @@ export const CardButton = ({
       size="sm"
       variant="outline"
       className={cn(
-        isActive && "bg-secondary-700 border-secondary disabled:opacity-100",
+        isActive &&
+          "bg-secondary border-secondary disabled:opacity-100 text-white",
         className
       )}
       disabled={isActive}

@@ -9,23 +9,21 @@ export const InformationSection = () => {
   return (
     <Section className="py-12 md:py-12">
       <div className="max-w-screen-xl flex flex-col gap-4 mx-auto items-start">
-        <div className="px-2 py-1 rounded-lg bg-gradient-to-tr from-primary-800 to-secondary-700">
-          <Text size="sm" weight="bold">
+        <div className="px-2 py-1 rounded-lg bg-secondary">
+          <Text size="sm" weight="bold" className="text-white">
             {t("GENERAL_INFORMATION_SECTION.TITLE")}
           </Text>
         </div>
         <Text size="sm">{t("GENERAL_INFORMATION_SECTION.TEXT_1")}</Text>
         <Text size="sm">{t("GENERAL_INFORMATION_SECTION.TEXT_2")}</Text>
         <Text size="sm">{t("GENERAL_INFORMATION_SECTION.TEXT_3")}</Text>
-        <Text size="sm">{t("GENERAL_INFORMATION_SECTION.TEXT_4")}</Text>
-        <Text size="sm">{t("GENERAL_INFORMATION_SECTION.TEXT_5")}</Text>
         <div className="flex gap-3 items-center">
           <Image
-            src="/images/head.png"
+            src="/images/bismuth-logo.svg"
             width={96}
             height={96}
             alt=""
-            className="w-10 h-10 rounded-full border-2 border-secondary"
+            className="w-10 h-10 rounded-full border-2 border-primary p-1"
           />
           <Text size="sm">
             {t("GENERAL_INFORMATION_SECTION.FOOTER_1")}
