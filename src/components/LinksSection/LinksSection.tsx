@@ -27,6 +27,14 @@ const links: Link[] = [
     href: "https://www.dextools.io/app/en/bnb/pair-explorer/0x731b8244f818fd488d9dc516edd976a96459ae59?t=1712473620769",
     label: "PancakeSwap BSC",
   },
+  {
+    href: "https://xeggex.com/market/BIS_USDT ",
+    label: "Xeggex (BIS USDT)",
+  },
+  {
+    href: "https://xeggex.com/market/BIS_LTC",
+    label: "Xeggex (BIS LTC)",
+  },
 ];
 
 export const LinksSection = () => {
