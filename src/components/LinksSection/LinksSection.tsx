@@ -7,7 +7,7 @@ type Link = { href: string; label: string };
 const links: Link[] = [
   { href: "https://bismuth.finance", label: "Main Site" },
   { href: "https://discord.gg/ADfwYbQJ7q", label: "Discord" },
-  { href: "todo", label: "X (Twitter)" },
+  { href: "https://twitter.com/BismuthTechGem", label: "X (Twitter)" },
   {
     href: "https://www.facebook.com/profile.php?id=61550220960162",
     label: "Facebook",

@@ -6,7 +6,7 @@ export const PrimaryActionButton = () => {
   const { t } = useTranslation("home");
   return (
     <a
-      href="https://discord.gg/rYmBNuF6XY"
+      href="https://twitter.com/BismuthTechGem"
       target="_blank"
       title={t("FOLLOW_TWITTER")}
     >

@@ -51,47 +51,49 @@
     "DESCRIPTION": "Wondering which technologies will revolutionize the world in the coming years? Look no further! Bismuth (BIS) is a groundbreaking Python-based blockchain platform that's bound to make waves!",
     "CATEGORY_1": {
       "NAME": "Tech Info",
-      "TITLE": "Stay ahead of the game with real-time data on trading volume surges!",
+      "TITLE": "Technical informations about Bismuth",
       "DESCRIPTION": {
-        "TEXT_1": "Sudden Volume Surges Categories showcase instances of abrupt increases in trading volumes within specified time intervals (1 minute, 5 minutes, 15 minutes, and 1 hour). These highlight sudden and significant rises in trading activity, providing valuable insights for traders.",
-        "TEXT_2": "For Binance and Kucoin, the sudden volume surges categories are organized by pairs with BTC and USDT, and on Uniswap, they are paired with wETH.",
-        "TEXT_3": "Additionally, we provide a detailed overview of how these volume changes manifested in other time intervals, offering a comprehensive understanding of market dynamics."
+        "TEXT_1": "<strong>It is built using Python.</strong> Python is currently the most popular programming language (approx. 10M programmers) and the number of programmers is constantly growing building potential base of Bismuth blockchain apps creators.",
+        "TEXT_2": "<strong>It is safe.</strong> Bismuth supports multiple cryptographic schemes, signing methods, and address formats to protect users from potential future quantum computing attacks. The mix includes RSA, ECDSA (SECP256k1), and ED25519.",
+        "TEXT_3": "<strong>It is open fielded.</strong> Bismuth OpenField allows users to input data directly into the blockchain.",
+        "TEXT_4": "<strong>It has special semantics.</strong> Bismuth Semantics enables unlimited content, such as on-chain forking without disturbing the underlying network. Operations are abstracted from normal blocks, but stored outside of them.",
+        "TEXT_5": "<strong>It introduces new Hyperblocks.</strong> Bismuth employs Hyperblock technology, which allows transactions to be compressed and reduces the size of blockchain to the amount of accounts present in it.",
+        "TEXT_6": "<strong>To learn more, please watch:</strong>"
       }
     },
     "CATEGORY_2": {
       "NAME": "Tesla App",
-      "TITLE": "Experience the thrill of trading with our High Amplitudes Categories!",
+      "TITLE": "Tesla Battery Monitoring App",
       "DESCRIPTION": {
-        "TEXT_1": "Experience the thrill of trading with our High Amplitudes Categories, showcasing the most substantial price swings within specific time intervals (1 minute, 5 minutes, 15 minutes, and 1 hour). These highlight significant movements that might revert close to the starting point by the interval&apos;s end.",
-        "TEXT_2": "On Binance and Kucoin, High Amplitude Categories are categorized by pairs with BTC and USDT, and on Uniswap, they are paired with wETH.",
-        "TEXT_3": "Gain deeper insights into these price changes across various time intervals and observe the corresponding volume for both category types. Elevate your trading experience with comprehensive data."
+        "TEXT_1": "It allows for continuous data collection about the battery condition and usage in our EV. When we want to buy a car the previous owner can share the data with us. We are sure the data is authentic and reliable. App guarantees users anonymity.",
+        "TEXT_2": "<strong>To learn more, please watch:</strong>"
       }
     },
     "CATEGORY_3": {
       "NAME": "DocShield",
-      "TITLE": "Uncover trading opportunities with our Top Gainers/Losers category!",
+      "TITLE": "DocShield - protect your intellectual property",
       "DESCRIPTION": {
-        "TEXT_1": "Uncover trading opportunities with our Top Gainers/Losers category, where we present coins that experienced the most significant price increases and decreases at the end of specific periods (ranking intervals: 1 minute, 5 minutes, 15 minutes, and 1 hour). These rankings are determined by Price Jumps.",
-        "TEXT_2": "For Binance and Kucoin, these categories are segmented into pairs with BTC and USDT, while on Uniswap, they are paired with wETH.",
-        "TEXT_3": "Explore how these price changes performed across different time intervals, coupled with insights into the volume from the specified time interval. Elevate your trading strategy with a comprehensive view of market dynamics!"
+        "TEXT_1": "DocShield allows users to easily verify the data authenticity and immutability. It's done by placing data's fingerprint (hash) on the blockchain. Then any recipient can verify if the received version is the original one. <strong>DocShield is compatible with Tornado Wallet.</strong>",
+        "TEXT_2": "More details and usage instruction can be found here:"
       }
     },
     "CATEGORY_4": {
       "NAME": "Hyper Nodes",
-      "TITLE": "Sudden Volume Surges Categories!",
+      "TITLE": "Bismuth - Hypernodes (passive income)",
       "DESCRIPTION": {
-        "TEXT_1": "Sudden Volume Surges Categories showcase instances of abrupt increases in trading volumes within specified time intervals (1 minute, 5 minutes, 15 minutes, and 1 hour). These highlight sudden and significant rises in trading activity, providing valuable insights for traders.",
-        "TEXT_2": "For Binance and Kucoin, the sudden volume surges categories are organized by pairs with BTC and USDT, and on Uniswap, they are paired with wETH.",
-        "TEXT_3": "Additionally, we provide a detailed overview of how these volume changes manifested in other time intervals, offering a comprehensive understanding of market dynamics. Stay ahead of the game with real-time data on trading volume surges!"
+        "TEXT_1": "On top of its own value Bismuth provides its holder with a very simple way to generate passive income. Through staking the coin on the network computation nodes called Hypernodes, you get the reward which depends on the number of nodes and state of the network (it currently oscillates around 20%).",
+        "TEXT_2": "The project offers a great flexibility in this matter as it allows you to create three sizes of Hypernodes: <strong>big (30k), medium (20k) and small (10k)</strong>.",
+        "TEXT_3": "There is no requirement to send your staking collateral to the specific Bismuth contract or any other address. Hypernode stakers are in full control of their own stake and can deactivate their hypernode at any point in time. Additionally, there is no incentive for malicious users to attack the hypernode chain as all the stakers possess their private keys and the hypernode chain doesn’t affect the main chain (Proof-of-Work) in its functionality when attacked."
       }
     },
     "CATEGORY_5": {
       "NAME": "Tech GEM",
-      "TITLE": "Dive into market analysis with our MACD!",
+      "TITLE": "Bismuth - A Hidden GEM",
       "DESCRIPTION": {
-        "TEXT_1": "Dive into market analysis with our MACD (Moving Average Convergence Divergence) category, where we unveil the status of this significant indicator.",
-        "TEXT_2": "Discover whether the MACD line has crossed the signal line from below or above – a pivotal event in deciphering market trends. Our advanced calculation method not only identifies the crossover but also measures its strength. We&apos;ve set precise thresholds to minimize market noise and ensure relevance.",
-        "TEXT_3": "On Binance, we categorize these occurrences in relation to BTC and USDT channels, while on Uniswap, categorization is done in relation to wETH. Stay informed about crucial market movements with our detailed MACD analysis!"
+        "TEXT_1": "Projects with their own blockchain, once noticed by the market and supported by enough users, can skyrocket. Solana is a great example where the price jumped from $0.5 to $259 in just over a year.",
+        "TEXT_2": "Why is Bismuth a hidden GEM?",
+        "TEXT_3": "<li>Cryptocurrency with great technical capabilities</li><li>Cheap considering its potential (market cap is close to 1/100,000 of ETH)</li><li>Stable and mature with supporting community</li><li>Easily exchangeable with ETH and BNB</li><li>Millions of potential users/programmers over the world thanks to its Python nature</li><li>Secure – using mix of various security algorithms on different layers</li><li>Proven to survive ups and downs of crypto market</li><li>Bismuth can be mined using graphics card mining (a very wide range of potential miners)</li>",
+        "TEXT_4": "Bismuth remains a hidden GEM awaiting full recognition, its inherent value yet to be fully unearthed amidst the dynamic cryptocurrency landscape."
       }
     }
   },

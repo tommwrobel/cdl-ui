@@ -2,8 +2,7 @@
 import useTranslation from "next-translate/useTranslation";
 import Trans from "next-translate/Trans";
 import Image from "next/image";
-import { LuArrowDown, LuArrowRight } from "react-icons/lu";
-import { DiscordIcon } from "../icons/DiscordIcon";
+import { LuArrowDown } from "react-icons/lu";
 import { Section } from "../Section/Section";
 import { PrimaryActionButton } from "../PrimaryActionButton/PrimaryActionButton";
 import { Title, Text, Button } from "@/ui";

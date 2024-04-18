@@ -21,13 +21,15 @@ export const CategoryItem = ({
           props.className
         )}
       >
-        <div className="w-72 lg:w-96 h-full flex justify-center shrink-0">
+        <div className="w-72 lg:w-96 h-full flex justify-center shrink-0 my-auto">
           {img}
         </div>
         <div className="flex flex-col gap-6">
-          <Title size="xl" className="text-center md:text-left">
-            {header}
-          </Title>
+          {header && (
+            <Title size="xl" className="text-center md:text-left">
+              {header}
+            </Title>
+          )}
           {children}
         </div>
       </div>

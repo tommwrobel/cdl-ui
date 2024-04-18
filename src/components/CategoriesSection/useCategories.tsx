@@ -12,12 +12,13 @@ import {
 import Image from "next/image";
 import { ReactNode } from "react";
 import useTranslation from "next-translate/useTranslation";
+import Trans from "next-translate/Trans";
 import { Text } from "@/ui";
 
 export type Category = {
   key: string;
   icon: ReactNode;
-  title: ReactNode;
+  title?: ReactNode;
   content: ReactNode;
   img: ReactNode;
 };
@@ -32,22 +33,67 @@ export const useCategories = (): Category[] => {
       content: (
         <>
           <Text brightness="dark" className="text-center md:text-left">
-            {t("CATEGORIES_SECTION.CATEGORY_1.DESCRIPTION.TEXT_1")}
+            <Trans
+              i18nKey="home:CATEGORIES_SECTION.CATEGORY_1.DESCRIPTION.TEXT_1"
+              components={{
+                strong: <strong className="text-textColor font-semibold" />,
+              }}
+            />
           </Text>
           <Text brightness="dark" className="text-center md:text-left">
-            {t("CATEGORIES_SECTION.CATEGORY_1.DESCRIPTION.TEXT_2")}
+            <Trans
+              i18nKey="home:CATEGORIES_SECTION.CATEGORY_1.DESCRIPTION.TEXT_2"
+              components={{
+                strong: <strong className="text-textColor font-semibold" />,
+              }}
+            />
           </Text>
           <Text brightness="dark" className="text-center md:text-left">
-            {t("CATEGORIES_SECTION.CATEGORY_1.DESCRIPTION.TEXT_3")}
+            <Trans
+              i18nKey="home:CATEGORIES_SECTION.CATEGORY_1.DESCRIPTION.TEXT_3"
+              components={{
+                strong: <strong className="text-textColor font-semibold" />,
+              }}
+            />
+          </Text>
+          <Text brightness="dark" className="text-center md:text-left">
+            <Trans
+              i18nKey="home:CATEGORIES_SECTION.CATEGORY_1.DESCRIPTION.TEXT_4"
+              components={{
+                strong: <strong className="text-textColor font-semibold" />,
+              }}
+            />
+          </Text>
+          <Text brightness="dark" className="text-center md:text-left">
+            <Trans
+              i18nKey="home:CATEGORIES_SECTION.CATEGORY_1.DESCRIPTION.TEXT_5"
+              components={{
+                strong: <strong className="text-textColor font-semibold" />,
+              }}
+            />
+          </Text>
+          <Text brightness="dark" className="text-center md:text-left">
+            <Trans
+              i18nKey="home:CATEGORIES_SECTION.CATEGORY_1.DESCRIPTION.TEXT_6"
+              components={{
+                strong: <strong className="text-textColor font-semibold" />,
+              }}
+            />{" "}
+            <a
+              href="https://www.youtube.com/watch?v=y3r3WcT3P2Q"
+              className="text-primary underline"
+            >
+              https://www.youtube.com/watch?v=y3r3WcT3P2Q
+            </a>
           </Text>
         </>
       ),
       img: (
         <Image
-          src="/images/price-jumps.png"
-          width={280}
-          height={360}
-          alt="Price Jumps"
+          src="/images/category-1-img.png"
+          width={240}
+          height={240}
+          alt=""
         />
       ),
     },
@@ -61,19 +107,27 @@ export const useCategories = (): Category[] => {
             {t("CATEGORIES_SECTION.CATEGORY_2.DESCRIPTION.TEXT_1")}
           </Text>
           <Text brightness="dark" className="text-center md:text-left">
-            {t("CATEGORIES_SECTION.CATEGORY_2.DESCRIPTION.TEXT_2")}
-          </Text>
-          <Text brightness="dark" className="text-center md:text-left">
-            {t("CATEGORIES_SECTION.CATEGORY_2.DESCRIPTION.TEXT_3")}
+            <Trans
+              i18nKey="home:CATEGORIES_SECTION.CATEGORY_2.DESCRIPTION.TEXT_2"
+              components={{
+                strong: <strong className="text-textColor font-semibold" />,
+              }}
+            />{" "}
+            <a
+              href="https://www.youtube.com/watch?v=y3r3WcT3P2Q"
+              className="text-primary underline"
+            >
+              https://www.youtube.com/watch?v=y3r3WcT3P2Q
+            </a>
           </Text>
         </>
       ),
       img: (
         <Image
-          src="/images/price-jumps.png"
-          width={280}
-          height={360}
-          alt="Price Jumps"
+          src="/images/category-2-img.png"
+          width={240}
+          height={240}
+          alt=""
         />
       ),
     },
@@ -84,22 +138,35 @@ export const useCategories = (): Category[] => {
       content: (
         <>
           <Text brightness="dark" className="text-center md:text-left">
-            {t("CATEGORIES_SECTION.CATEGORY_3.DESCRIPTION.TEXT_1")}
+            <Trans
+              i18nKey="home:CATEGORIES_SECTION.CATEGORY_3.DESCRIPTION.TEXT_1"
+              components={{
+                strong: <strong className="text-textColor font-semibold" />,
+              }}
+            />
           </Text>
           <Text brightness="dark" className="text-center md:text-left">
-            {t("CATEGORIES_SECTION.CATEGORY_3.DESCRIPTION.TEXT_2")}
-          </Text>
-          <Text brightness="dark" className="text-center md:text-left">
-            {t("CATEGORIES_SECTION.CATEGORY_3.DESCRIPTION.TEXT_3")}
+            <Trans
+              i18nKey="home:CATEGORIES_SECTION.CATEGORY_3.DESCRIPTION.TEXT_2"
+              components={{
+                strong: <strong className="text-textColor font-semibold" />,
+              }}
+            />{" "}
+            <a
+              href="https://www.youtube.com/watch?v=AsHfUhrBch4&t=28s"
+              className="text-primary underline"
+            >
+              https://www.youtube.com/watch?v=AsHfUhrBch4&t=28s
+            </a>
           </Text>
         </>
       ),
       img: (
         <Image
-          src="/images/price-jumps.png"
-          width={280}
-          height={360}
-          alt="Price Jumps"
+          src="/images/category-3-img.png"
+          width={240}
+          height={240}
+          alt=""
         />
       ),
     },
@@ -112,8 +179,13 @@ export const useCategories = (): Category[] => {
           <Text brightness="dark" className="text-center md:text-left">
             {t("CATEGORIES_SECTION.CATEGORY_4.DESCRIPTION.TEXT_1")}
           </Text>
-          <Text brightness="dark" className="text-center md:text-left">
-            {t("CATEGORIES_SECTION.CATEGORY_4.DESCRIPTION.TEXT_2")}
+          <Text>
+            <Trans
+              i18nKey="home:CATEGORIES_SECTION.CATEGORY_4.DESCRIPTION.TEXT_2"
+              components={{
+                strong: <strong className="text-textColor font-semibold" />,
+              }}
+            />
           </Text>
           <Text brightness="dark" className="text-center md:text-left">
             {t("CATEGORIES_SECTION.CATEGORY_4.DESCRIPTION.TEXT_3")}
@@ -122,10 +194,10 @@ export const useCategories = (): Category[] => {
       ),
       img: (
         <Image
-          src="/images/price-jumps.png"
-          width={280}
-          height={360}
-          alt="Price Jumps"
+          src="/images/category-4-img.png"
+          width={240}
+          height={240}
+          alt=""
         />
       ),
     },
@@ -141,17 +213,27 @@ export const useCategories = (): Category[] => {
           <Text brightness="dark" className="text-center md:text-left">
             {t("CATEGORIES_SECTION.CATEGORY_5.DESCRIPTION.TEXT_2")}
           </Text>
+          <Text>
+            <ul className="list-disc list-inside">
+              <Trans
+                i18nKey="home:CATEGORIES_SECTION.CATEGORY_5.DESCRIPTION.TEXT_3"
+                components={{
+                  li: <li />,
+                }}
+              />
+            </ul>
+          </Text>
           <Text brightness="dark" className="text-center md:text-left">
-            {t("CATEGORIES_SECTION.CATEGORY_5.DESCRIPTION.TEXT_3")}
+            {t("CATEGORIES_SECTION.CATEGORY_5.DESCRIPTION.TEXT_4")}
           </Text>
         </>
       ),
       img: (
         <Image
-          src="/images/price-jumps.png"
-          width={280}
-          height={360}
-          alt="Price Jumps"
+          src="/images/category-5-img.png"
+          width={240}
+          height={240}
+          alt=""
         />
       ),
     },
