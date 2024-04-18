@@ -1,6 +1,6 @@
-import useTranslation from "next-translate/useTranslation";
 import Image from "next/image";
 import { Section } from "../Section/Section";
+import { useTranslation } from "@/hooks/useTranslation";
 import { Text } from "@/ui";
 
 export const InformationSection = () => {

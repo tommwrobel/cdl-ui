@@ -1,5 +1,5 @@
-import useTranslation from "next-translate/useTranslation";
 import { Section } from "../Section/Section";
+import { useTranslation } from "@/hooks/useTranslation";
 import { Text } from "@/ui";
 
 export const RiskNoticeSection = () => {

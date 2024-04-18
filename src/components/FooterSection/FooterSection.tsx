@@ -1,7 +1,7 @@
-import useTranslation from "next-translate/useTranslation";
 import { Section } from "../Section/Section";
 import { FacebookIcon } from "../icons/FacebookIcon";
 import { XIcon } from "../icons/XIcon";
+import { useTranslation } from "@/hooks/useTranslation";
 import { Button, Text } from "@/ui";
 
 export const FooterSection = () => {
@@ -17,12 +17,15 @@ export const FooterSection = () => {
         </div>
         <div className="flex gap-1 items-center">
           <Text>{t("FOOTER_SECTION.SOCIAL_MEDIA")}</Text>
-          <a href="https://www.facebook.com/TheCryptoSanctuary" target="_blank">
+          <a
+            href="https://www.facebook.com/profile.php?id=61550220960162"
+            target="_blank"
+          >
             <Button variant="ghost" className="text-xl" icon>
               <FacebookIcon />
             </Button>
           </a>
-          <a href="https://twitter.com/CryptoSanctuar" target="_blank">
+          <a href="https://twitter.com/BismuthTechGem" target="_blank">
             <Button variant="ghost" className="text-xl" icon>
               <XIcon />
             </Button>

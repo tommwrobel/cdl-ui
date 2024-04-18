@@ -1,5 +1,5 @@
 import { LuBox, LuCode, LuShield } from "react-icons/lu";
-import useTranslation from "next-translate/useTranslation";
+import { useTranslation } from "@/hooks/useTranslation";
 import { Section } from "../Section/Section";
 import { PrimaryActionButton } from "../PrimaryActionButton/PrimaryActionButton";
 import { AboutSectionBox } from "./AboutSectionBox";

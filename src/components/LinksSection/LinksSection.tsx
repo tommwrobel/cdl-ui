@@ -1,6 +1,6 @@
-import useTranslation from "next-translate/useTranslation";
 import { LuExternalLink } from "react-icons/lu";
 import { Section } from "../Section/Section";
+import { useTranslation } from "@/hooks/useTranslation";
 import { Button, Title } from "@/ui";
 
 type Link = { href: string; label: string };
@@ -29,11 +29,11 @@ const links: Link[] = [
   },
   {
     href: "https://xeggex.com/market/BIS_USDT ",
-    label: "Xeggex (BIS USDT)",
+    label: "Xeggex Bis/Usdt",
   },
   {
     href: "https://xeggex.com/market/BIS_LTC",
-    label: "Xeggex (BIS LTC)",
+    label: "Xeggex Bis/Ltc",
   },
 ];
 

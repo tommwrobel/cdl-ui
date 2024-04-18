@@ -1,11 +1,9 @@
 "use client";
-import useTranslation from "next-translate/useTranslation";
-import Trans from "next-translate/Trans";
-import { DiscordIcon } from "../icons/DiscordIcon";
 import { Section } from "../Section/Section";
 import { PrimaryActionButton } from "../PrimaryActionButton/PrimaryActionButton";
 import { CounterText } from "./CounterText";
-import { Button, Text, Title } from "@/ui";
+import { useTranslation, Trans } from "@/hooks/useTranslation";
+import { Text, Title } from "@/ui";
 
 export const NumbersSection = () => {
   const { t } = useTranslation("home");

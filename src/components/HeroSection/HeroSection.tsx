@@ -1,10 +1,9 @@
 "use client";
-import useTranslation from "next-translate/useTranslation";
-import Trans from "next-translate/Trans";
 import Image from "next/image";
 import { LuArrowDown } from "react-icons/lu";
 import { Section } from "../Section/Section";
 import { PrimaryActionButton } from "../PrimaryActionButton/PrimaryActionButton";
+import { useTranslation, Trans } from "@/hooks/useTranslation";
 import { Title, Text, Button } from "@/ui";
 
 export const HeroSection = () => {

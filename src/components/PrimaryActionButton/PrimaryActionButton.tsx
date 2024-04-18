@@ -1,6 +1,6 @@
-import useTranslation from "next-translate/useTranslation";
 import { Button } from "../../ui";
 import { XIcon } from "../icons/XIcon";
+import { useTranslation } from "@/hooks/useTranslation";
 
 export const PrimaryActionButton = () => {
   const { t } = useTranslation("home");

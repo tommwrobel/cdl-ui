@@ -1,18 +1,13 @@
 import {
-  LuAward,
-  LuCandlestickChart,
   LuCpu,
   LuGem,
-  LuLineChart,
-  LuSearch,
   LuShield,
   LuSmartphone,
   LuWorkflow,
 } from "react-icons/lu";
 import Image from "next/image";
 import { ReactNode } from "react";
-import useTranslation from "next-translate/useTranslation";
-import Trans from "next-translate/Trans";
+import { useTranslation, Trans } from "@/hooks/useTranslation";
 import { Text } from "@/ui";
 
 export type Category = {
