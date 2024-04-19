@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import { LuArrowDown } from "react-icons/lu";
 import { Section } from "../Section/Section";
 import { PrimaryActionButton } from "../PrimaryActionButton/PrimaryActionButton";
@@ -12,7 +11,7 @@ export const HeroSection = () => {
   return (
     <Section className="flex max-w-screen-xl h-[720px] mx-auto flex-row gap-16 snap-top">
       <div className="flex flex-col max-w-3xl gap-16 justify-center items-center mx-auto">
-        <Image src="images/bismuth-logo.svg" width={56} height={56} alt="" />
+        <img src="images/bismuth-logo.svg" width={56} height={56} alt="" />
         <Title className="text-center text-2xl sm:text-3xl text-primary">
           {t("HERO_SECTION.TITLE")}
         </Title>

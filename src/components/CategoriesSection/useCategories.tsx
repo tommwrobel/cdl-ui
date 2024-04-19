@@ -5,7 +5,6 @@ import {
   LuSmartphone,
   LuWorkflow,
 } from "react-icons/lu";
-import Image from "next/image";
 import { ReactNode } from "react";
 import { useTranslation, Trans } from "@/hooks/useTranslation";
 import { Text } from "@/ui";
@@ -84,7 +83,7 @@ export const useCategories = (): Category[] => {
         </>
       ),
       img: (
-        <Image
+        <img
           src="/images/category-1-img.png"
           width={240}
           height={240}
@@ -118,7 +117,7 @@ export const useCategories = (): Category[] => {
         </>
       ),
       img: (
-        <Image
+        <img
           src="/images/category-2-img.png"
           width={240}
           height={240}
@@ -157,7 +156,7 @@ export const useCategories = (): Category[] => {
         </>
       ),
       img: (
-        <Image
+        <img
           src="/images/category-3-img.png"
           width={240}
           height={240}
@@ -188,7 +187,7 @@ export const useCategories = (): Category[] => {
         </>
       ),
       img: (
-        <Image
+        <img
           src="/images/category-4-img.png"
           width={240}
           height={240}
@@ -224,7 +223,7 @@ export const useCategories = (): Category[] => {
         </>
       ),
       img: (
-        <Image
+        <img
           src="/images/category-5-img.png"
           width={240}
           height={240}

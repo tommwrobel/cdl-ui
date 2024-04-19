@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Section } from "../Section/Section";
 import { useTranslation } from "@/hooks/useTranslation";
 import { Text } from "@/ui";
@@ -18,7 +17,7 @@ export const InformationSection = () => {
         <Text size="sm">{t("GENERAL_INFORMATION_SECTION.TEXT_2")}</Text>
         <Text size="sm">{t("GENERAL_INFORMATION_SECTION.TEXT_3")}</Text>
         <div className="flex gap-3 items-center">
-          <Image
+          <img
             src="/images/bismuth-logo.svg"
             width={96}
             height={96}
