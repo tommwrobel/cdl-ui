@@ -8,7 +8,7 @@ export const FooterSection = () => {
   const { t } = useTranslation("home");
 
   return (
-    <Section className="py-6 md:py-6">
+    <Section className="py-6 md:py-6" animate={false}>
       <div className="max-w-screen-xl flex flex-col gap-4 md:flex-row items-center justify-between mx-auto">
         <div>
           <Text className="text-center">
