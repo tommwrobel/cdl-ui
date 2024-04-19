@@ -18,7 +18,7 @@ export const InformationSection = () => {
         <Text size="sm">{t("GENERAL_INFORMATION_SECTION.TEXT_3")}</Text>
         <div className="flex gap-3 items-center">
           <img
-            src="/images/bismuth-logo.svg"
+            src="./images/bismuth-logo.svg"
             width={96}
             height={96}
             alt=""
