@@ -1,4 +1,5 @@
 import { RefObject, useState } from "react";
+import { useInView } from "framer-motion";
 import { useIsomorphicEffect } from "./useIsomorphicEffect";
 
 type UseIntersectionCounterParams<TElement = HTMLElement> = {
@@ -18,45 +19,24 @@ export const useIntersectionCounter = ({
 }: UseIntersectionCounterParams) => {
   const [value, setValue] = useState(startValue);
 
+  const isInView = useInView(containerRef);
+
   const intervalTime = durationInMilliseconds / (targetValue / step);
 
   useIsomorphicEffect(() => {
-    const options = {
-      root: null,
-      rootMargin: "0px",
-      threshold: 0.5,
-    };
-
-    const handleIntersection = (entries: IntersectionObserverEntry[]) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          const intervalId = setInterval(() => {
-            setValue((prevValue) => {
-              if (prevValue < targetValue) {
-                return prevValue + step;
-              } else {
-                clearInterval(intervalId);
-                return prevValue;
-              }
-            });
-          }, intervalTime);
-        }
-      });
-    };
-
-    const observer = new IntersectionObserver(handleIntersection, options);
-    const node = containerRef?.current;
-
-    if (node) {
-      observer.observe(node);
+    if (isInView) {
+      const intervalId = setInterval(() => {
+        setValue((prevValue) => {
+          if (prevValue < targetValue) {
+            return prevValue + step;
+          } else {
+            clearInterval(intervalId);
+            return prevValue;
+          }
+        });
+      }, intervalTime);
     }
-
-    return () => {
-      if (node) {
-        observer.unobserve(node);
-      }
-    };
-  }, [targetValue, containerRef, step, intervalTime]);
+  }, [targetValue, containerRef, step, intervalTime, isInView]);
 
   return value;
 };

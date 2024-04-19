@@ -84,7 +84,7 @@ export const useCategories = (): Category[] => {
       ),
       img: (
         <img
-          src="/images/category-1-img.png"
+          src="./images/category-1-img.png"
           width={240}
           height={240}
           alt=""
@@ -118,7 +118,7 @@ export const useCategories = (): Category[] => {
       ),
       img: (
         <img
-          src="/images/category-2-img.png"
+          src="./images/category-2-img.png"
           width={240}
           height={240}
           alt=""
@@ -157,7 +157,7 @@ export const useCategories = (): Category[] => {
       ),
       img: (
         <img
-          src="/images/category-3-img.png"
+          src="./images/category-3-img.png"
           width={240}
           height={240}
           alt=""
@@ -188,7 +188,7 @@ export const useCategories = (): Category[] => {
       ),
       img: (
         <img
-          src="/images/category-4-img.png"
+          src="./images/category-4-img.png"
           width={240}
           height={240}
           alt=""
@@ -224,7 +224,7 @@ export const useCategories = (): Category[] => {
       ),
       img: (
         <img
-          src="/images/category-5-img.png"
+          src="./images/category-5-img.png"
           width={240}
           height={240}
           alt=""

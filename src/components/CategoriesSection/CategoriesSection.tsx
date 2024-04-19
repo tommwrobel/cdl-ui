@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 import { Section } from "../Section/Section";
 import { PrimaryActionButton } from "../PrimaryActionButton/PrimaryActionButton";
 import { CardButton } from "./CardButton";
@@ -14,30 +14,8 @@ export const CategoriesSection = () => {
   const [activeCardIndex, setActiveCardIndex] = useState(0);
   const categories = useCategories();
 
-  const intervalRef = useRef<NodeJS.Timeout | null>(null);
-
-  useEffect(() => {
-    intervalRef.current = setInterval(() => {
-      setActiveCardIndex((prev) => (prev + 1) % 5);
-    }, 5000);
-    return () => {
-      if (intervalRef.current) clearInterval(intervalRef.current);
-    };
-  }, []);
-
   const handleChangeActiveCard = (index: number) => {
     setActiveCardIndex(index);
-    intervalRef.current && clearInterval(intervalRef.current);
-  };
-
-  const handleOnMouseEnter = () => {
-    intervalRef.current && clearInterval(intervalRef.current);
-  };
-
-  const handleOnMouseLeave = () => {
-    intervalRef.current = setInterval(() => {
-      setActiveCardIndex((prev) => (prev + 1) % 5);
-    }, 5000);
   };
 
   return (
@@ -70,8 +48,6 @@ export const CategoriesSection = () => {
 
           <div className="w-full">
             <CategoryItem
-              onMouseEnter={handleOnMouseEnter}
-              onMouseLeave={handleOnMouseLeave}
               header={categories[activeCardIndex].title}
               img={categories[activeCardIndex].img}
             >
