@@ -39,6 +39,7 @@ export const AboutSection = () => {
             hidden: { opacity: 0, y: 100 },
           }}
           transition={{ duration: 0.8, delay: 0.2 }}
+          className="w-full"
         >
           <AboutSectionBox>
             <LuCode className="text-secondary text-2xl" />
@@ -55,6 +56,7 @@ export const AboutSection = () => {
             hidden: { opacity: 0, y: 100 },
           }}
           transition={{ duration: 0.8, delay: 0.4 }}
+          className="w-full"
         >
           <AboutSectionBox>
             <LuBox className="text-secondary text-2xl" />
@@ -74,6 +76,7 @@ export const AboutSection = () => {
             hidden: { opacity: 0, y: 100 },
           }}
           transition={{ duration: 0.8, delay: 0.6 }}
+          className="w-full"
         >
           <AboutSectionBox>
             <LuShield className="text-secondary text-2xl" />
