@@ -44,7 +44,10 @@ export const AboutSection = () => {
           <AboutSectionBox>
             <LuCode className="text-secondary text-2xl" />
             <Text className="group-hover:text-textColor-light">
-              {t("ABOUT_SECTION.TEXT_1")}
+              {t("ABOUT_SECTION.TEXT_1_1")}
+            </Text>
+            <Text className="group-hover:text-textColor-light">
+              {t("ABOUT_SECTION.TEXT_1_2")}
             </Text>
           </AboutSectionBox>
         </motion.div>
