@@ -79,7 +79,7 @@
       }
     },
     "CATEGORY_4": {
-      "NAME": "Hyper Nodes",
+      "NAME": "HyperNodes",
       "TITLE": "Bismuth - Hypernodes (passive income)",
       "DESCRIPTION": {
         "TEXT_1": "On top of its own value Bismuth provides its holder with a very simple way to generate passive income. Through staking the coin on the network computation nodes called Hypernodes, you get the reward which depends on the number of nodes and state of the network (it currently oscillates around 20%).",
