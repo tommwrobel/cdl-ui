@@ -29,11 +29,11 @@ const links: Link[] = [
   },
   {
     href: "https://xeggex.com/market/BIS_USDT ",
-    label: "Xeggex Bis/Usdt",
+    label: "Xeggex BIS/USDT",
   },
   {
     href: "https://xeggex.com/market/BIS_LTC",
-    label: "Xeggex Bis/Ltc",
+    label: "Xeggex BIS/LTC",
   },
 ];
 

@@ -18,7 +18,7 @@ export const NumbersSection = () => {
               description={t("NUMBERS_SECTION.EXCHANGES")}
             />
             <CounterText
-              targetValue={1000}
+              targetValue={900}
               step={50}
               startAdornment="+"
               endAdornment="x"
