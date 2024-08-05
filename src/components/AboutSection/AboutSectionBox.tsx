@@ -9,8 +9,8 @@ export const AboutSectionBox = forwardRef<HTMLDivElement, AboutSectionBoxProps>(
       <div
         ref={ref}
         className={cn(
-          "relative group bg-bgColor/20 border-2 border-neutral-400/50 border-dashed backdrop-blur-xs rounded-2xl w-full p-8 flex flex-col gap-6 justify-start overflow-hidden",
-          "hover:scale-105 hover:border-primary duration-300 hover:bg-neutral-300/25",
+          "relative group bg-bgColor/20 border-2 border-neutral-600/50 border-solid backdrop-blur-xs rounded-2xl w-full p-8 flex flex-col gap-6 justify-start overflow-hidden",
+          "hover:scale-105 hover:border-secondary duration-300 hover:bg-neutral-600/25",
           className
         )}
         {...props}

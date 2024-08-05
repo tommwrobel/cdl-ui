@@ -11,19 +11,12 @@ export const HeroSection = () => {
   return (
     <Section className="flex max-w-screen-xl h-[720px] mx-auto flex-row gap-16 snap-top">
       <div className="flex flex-col max-w-3xl gap-16 justify-center items-center mx-auto">
-        <img src="images/bismuth-logo.svg" width={56} height={56} alt="" />
-        <Title className="text-center text-2xl sm:text-3xl text-primary">
+        <img src="images/cdl-logo.svg" width={64} height={64} alt="" />
+        <Title className="text-center text-2xl sm:text-3xl text-secondary">
           {t("HERO_SECTION.TITLE")}
         </Title>
         <Text className="text-center text-lg sm:text-xl text-textColor">
-          <Trans
-            i18nKey="home:HERO_SECTION.SUBTITLE"
-            components={{
-              strong: (
-                <strong className="text-textColor underline decoration-dashed decoration-1 underline-offset-4" />
-              ),
-            }}
-          />
+        {t("HERO_SECTION.SUBTITLE")}
         </Text>
         <div className="flex flex-col sm:flex-row gap-4 items-center justify-center w-full">
           <PrimaryActionButton />
