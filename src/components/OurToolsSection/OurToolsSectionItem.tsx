@@ -9,7 +9,7 @@ type Link = {
 };
 
 type OurToolsSectionItemProps = HTMLAttributes<HTMLDivElement> & {
-  icon: React.ReactNode;
+  icon?: React.ReactNode;
   title: React.ReactNode;
   description: React.ReactNode;
   links?: Link[];
@@ -63,9 +63,15 @@ export const OurToolsSectionItem = ({
               </div>
             </div>
           )}
-          <Title size="xl" className="text-secondary">
-            {title}
-          </Title>
+          <div className="flex gap-3 items-center">
+            {icon}
+            <Title
+              size="xl"
+              className="bg-gradient-to-r from-primary to-secondary text-transparent bg-clip-text pr-8"
+            >
+              {title}
+            </Title>
+          </div>
         </div>
         <Text className="text-textColor-dark">{description}</Text>
         <div className="flex items-center gap-3">

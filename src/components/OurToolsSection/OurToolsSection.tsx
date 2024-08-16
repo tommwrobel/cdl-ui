@@ -5,7 +5,7 @@ import { Section } from "../Section/Section";
 import { PrimaryActionButton } from "../PrimaryActionButton/PrimaryActionButton";
 import { OurToolsSectionItem } from "./OurToolsSectionItem";
 import { useTranslation } from "@/hooks/useTranslation";
-import { LuAccessibility, LuFish } from "react-icons/lu";
+import { Text, Title } from "@/ui";
 
 export const OurToolsSection = () => {
   const { t } = useTranslation("home");
@@ -28,10 +28,9 @@ export const OurToolsSection = () => {
     >
       <div
         ref={ref}
-        className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 max-w-screen-xl mx-auto gap-8 md:gap-16 items-start"
+        className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 max-w-screen-xl mx-auto gap-8 md:gap-16 items-start"
       >
         <OurToolsSectionItem
-          icon={<LuAccessibility />}
           title="Ethereum Whales"
           description={t("ABOUT_SECTION.TEXT_1_2")}
           links={[
@@ -43,7 +42,6 @@ export const OurToolsSection = () => {
         />
 
         <OurToolsSectionItem
-          icon={<LuFish />}
           title="Binance Price Jumps"
           description={t("ABOUT_SECTION.TEXT_1_2")}
           links={[
@@ -54,7 +52,6 @@ export const OurToolsSection = () => {
         />
 
         <OurToolsSectionItem
-          icon={<LuFish />}
           title={"Uniswap Price Jumps"}
           description={t("ABOUT_SECTION.TEXT_1_2")}
           links={[
@@ -65,7 +62,6 @@ export const OurToolsSection = () => {
         />
 
         <OurToolsSectionItem
-          icon={<LuFish />}
           title={"Binance Price Amplitudes"}
           description={t("ABOUT_SECTION.TEXT_1_2")}
           links={[
@@ -74,9 +70,19 @@ export const OurToolsSection = () => {
           ]}
           free
         />
-
+      </div>
+      <div className="flex gap-8 items-center w-full max-w-screen-xl">
+        <div className="w-full h-[1px] bg-primary-400/25"></div>
+        <Title className="text-primary-400/50 shrink-0">
+          Crypto Sanctuary
+        </Title>
+        <div className="w-full h-[1px] bg-primary-400/25"></div>
+      </div>
+      <div
+        ref={ref}
+        className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 max-w-screen-xl mx-auto gap-8 md:gap-16 items-start"
+      >
         <OurToolsSectionItem
-          icon={<LuFish />}
           title={"Uniswap Price Amplitudes"}
           description={t("ABOUT_SECTION.TEXT_1_2")}
           links={[
@@ -87,7 +93,7 @@ export const OurToolsSection = () => {
         />
 
         <OurToolsSectionItem
-          icon={<LuFish />}
+          icon={<img src="/images/cs-logo.png" className="w-10 h-10" />}
           title={"Uniswap Top Gainers/Losers"}
           description={t("ABOUT_SECTION.TEXT_1_2")}
           links={[
@@ -98,7 +104,7 @@ export const OurToolsSection = () => {
         />
 
         <OurToolsSectionItem
-          icon={<LuFish />}
+          icon={<img src="/images/cs-logo.png" className="w-10 h-10" />}
           title={"Bianace MACD"}
           description={t("ABOUT_SECTION.TEXT_1_2")}
           links={[
@@ -109,7 +115,7 @@ export const OurToolsSection = () => {
         />
 
         <OurToolsSectionItem
-          icon={<LuFish />}
+          icon={<img src="/images/cs-logo.png" className="w-10 h-10" />}
           title={"Uniswap MACD"}
           description={t("ABOUT_SECTION.TEXT_1_2")}
           links={[
@@ -121,12 +127,42 @@ export const OurToolsSection = () => {
         />
 
         <OurToolsSectionItem
-          icon={<LuFish />}
+          icon={<img src="/images/cs-logo.png" className="w-10 h-10" />}
           title={"Uniswap MACD"}
           description={t("ABOUT_SECTION.TEXT_1_2")}
-          links={[
-            { label: "Details", href: "#" },
-          ]}
+          links={[{ label: "Details", href: "#" }]}
+          free
+        />
+
+        <OurToolsSectionItem
+          icon={<img src="/images/cs-logo.png" className="w-10 h-10" />}
+          title={"Uniswap MACD"}
+          description={t("ABOUT_SECTION.TEXT_1_2")}
+          links={[{ label: "Details", href: "#" }]}
+          free
+        />
+
+        <OurToolsSectionItem
+          icon={<img src="/images/cs-logo.png" className="w-10 h-10" />}
+          title={"Uniswap MACD"}
+          description={t("ABOUT_SECTION.TEXT_1_2")}
+          links={[{ label: "Details", href: "#" }]}
+          free
+        />
+
+        <OurToolsSectionItem
+          icon={<img src="/images/cs-logo.png" className="w-10 h-10" />}
+          title={"Uniswap MACD"}
+          description={t("ABOUT_SECTION.TEXT_1_2")}
+          links={[{ label: "Details", href: "#" }]}
+          free
+        />
+
+        <OurToolsSectionItem
+          icon={<img src="/images/cs-logo.png" className="w-10 h-10" />}
+          title={"Uniswap MACD"}
+          description={t("ABOUT_SECTION.TEXT_1_2")}
+          links={[{ label: "Details", href: "#" }]}
           free
         />
       </div>
