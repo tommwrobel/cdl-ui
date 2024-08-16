@@ -12,11 +12,11 @@ export const HeroSection = () => {
     <Section className="flex max-w-screen-xl h-[720px] mx-auto flex-row gap-16 snap-top">
       <div className="flex flex-col max-w-3xl gap-16 justify-center items-center mx-auto">
         <img src="images/cdl-logo.svg" width={64} height={64} alt="" />
-        <Title className="text-center text-2xl sm:text-3xl text-secondary">
+        <Title className="text-center text-2xl sm:text-4xl font-semibold bg-gradient-to-r from-primary to-secondary text-transparent bg-clip-text">
           {t("HERO_SECTION.TITLE")}
         </Title>
         <Text className="text-center text-lg sm:text-xl text-textColor">
-        {t("HERO_SECTION.SUBTITLE")}
+          {t("HERO_SECTION.SUBTITLE")}
         </Text>
         <div className="flex flex-col sm:flex-row gap-4 items-center justify-center w-full">
           <PrimaryActionButton />

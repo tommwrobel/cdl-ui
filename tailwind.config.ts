@@ -30,8 +30,8 @@ const config: Config = {
         "4xl": ["3.2rem", "3.7rem"],
       },
       colors: {
-        primary: { ...colors.emerald, DEFAULT: colors.emerald[600] },
-        secondary: { ...colors.orange, DEFAULT: colors.orange[600] },
+        primary: { ...colors.violet, DEFAULT: colors.violet[600] },
+        secondary: { ...colors.rose, DEFAULT: colors.rose[600] },
 
         success: { ...colors.emerald, DEFAULT: colors.emerald[600] },
         warning: { ...colors.amber, DEFAULT: colors.amber[600] },
