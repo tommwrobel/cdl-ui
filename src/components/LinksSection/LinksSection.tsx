@@ -5,7 +5,7 @@ import { Button, Title } from "@/ui";
 
 type Link = { href: string; label: string };
 const links: Link[] = [
-  { href: "https://bismuth.finance", label: "Main Site" },
+  { href: "https://bismuth.finance", label: "Bismuth Finance" },
   { href: "https://discord.gg/ADfwYbQJ7q", label: "Discord" },
   { href: "https://twitter.com/BismuthTechGem", label: "X (Twitter)" },
   {
@@ -41,13 +41,13 @@ export const LinksSection = () => {
   const { t } = useTranslation("home");
 
   return (
-    <Section className="py-12 md:py-12 border-t border-neutral-300">
+    <Section className="bg-neutral-950/50 py-12 md:py-12 border-t border-neutral/25">
       <div className="flex flex-col items-center mx-auto gap-12">
         <Title
           size="sm"
           className="text-xl sm:text-2xl text-center md:text-left text-primary"
         >
-          {t("LINKS_SECTION.TITLE")}
+          Get started today and become part of our vibrant community!
         </Title>
         <div className="max-w-screen-xl flex flex-wrap gap-4 mx-auto justify-center">
           {links.map(({ href, label }) => (

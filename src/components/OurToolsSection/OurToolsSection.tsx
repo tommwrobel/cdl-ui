@@ -5,7 +5,8 @@ import { Section } from "../Section/Section";
 import { PrimaryActionButton } from "../PrimaryActionButton/PrimaryActionButton";
 import { OurToolsSectionItem } from "./OurToolsSectionItem";
 import { useTranslation } from "@/hooks/useTranslation";
-import { Text, Title } from "@/ui";
+import { Title } from "@/ui";
+import { OurToolsDivider } from "./OurToolsDivider";
 
 export const OurToolsSection = () => {
   const { t } = useTranslation("home");
@@ -71,13 +72,7 @@ export const OurToolsSection = () => {
           free
         />
       </div>
-      <div className="flex gap-8 items-center w-full max-w-screen-xl">
-        <div className="w-full h-[1px] bg-primary-400/25"></div>
-        <Title className="text-primary-400/50 shrink-0">
-          Crypto Sanctuary
-        </Title>
-        <div className="w-full h-[1px] bg-primary-400/25"></div>
-      </div>
+      <OurToolsDivider />
       <div
         ref={ref}
         className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 max-w-screen-xl mx-auto gap-8 md:gap-16 items-start"
@@ -166,7 +161,6 @@ export const OurToolsSection = () => {
           free
         />
       </div>
-      <PrimaryActionButton />
     </Section>
   );
 };

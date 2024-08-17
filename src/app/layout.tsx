@@ -6,9 +6,9 @@ import { cn } from "../ui";
 const sora = Sora({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Bismuth: the Hidden Gem of the Crypto World",
+  title: "Crypto Data Lab - The Art of Crypto Analysis!",
   description:
-    "Discover Bismuth, the overlooked cryptocurrency with immense potential. With robust technical capabilities, low cost, and a thriving community, Bismuth offers stability, security, and accessibility. Explore its unique features and join the journey to uncover its true value in the evolving world of digital assets.",
+    "The Art of Crypto Analysis! Unveil Market Trends, Optimize Strategies, and Make Informed Decisions with Our Cutting-Edge Tools and Insights!",
 };
 
 export default function RootLayout({

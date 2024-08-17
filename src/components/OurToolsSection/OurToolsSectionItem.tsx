@@ -1,7 +1,6 @@
-import React, { forwardRef, HTMLAttributes, useEffect, useRef } from "react";
+import React, { HTMLAttributes, useEffect, useRef } from "react";
 import { motion, useAnimation, useInView } from "framer-motion";
 import { cn, Text, Title } from "@/ui";
-import { link } from "fs";
 
 type Link = {
   label: string;
@@ -35,6 +34,7 @@ export const OurToolsSectionItem = ({
       controls.start("visible");
     }
   }, [controls, isInView]);
+
   return (
     <motion.div
       animate={controls}
@@ -49,7 +49,7 @@ export const OurToolsSectionItem = ({
       <div
         ref={ref}
         className={cn(
-          "relative group bg-bgColor/40 border-2 border-neutral-600/50 border-solid backdrop-blur-xs rounded-2xl w-full p-8 flex flex-col gap-6 justify-start",
+          "relative group bg-bgColor/40 border border-neutral-600/50 border-solid backdrop-blur-xs rounded-2xl w-full p-8 flex flex-col gap-6 justify-start",
           "hover:scale-105 hover:border-secondary duration-300 hover:bg-bgColor/25 overflow-hidden",
           className
         )}

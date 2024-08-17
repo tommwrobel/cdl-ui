@@ -14,9 +14,6 @@ export default function Home() {
       <HeroSection />
       <OurToolsSection />
       <NumbersSection />
-      <CategoriesSection />
-      <OurCoinSection />
-      <InformationSection />
       <LinksSection />
       <RiskNoticeSection />
       <FooterSection />
