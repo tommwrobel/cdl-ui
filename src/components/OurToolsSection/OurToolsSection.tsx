@@ -29,10 +29,10 @@ export const OurToolsSection = () => {
     >
       <div
         ref={ref}
-        className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 max-w-screen-xl mx-auto gap-8 md:gap-16 items-start"
+        className="grid grid-cols-1 md:grid-cols-2 max-w-screen-xl mx-auto gap-8 md:gap-12 items-start"
       >
         <OurToolsSectionItem
-          title="Ethereum Whales"
+          title="CryptoRoiWhales"
           description="We analyze Ethereum’s blockchain, focusing on whale addresses with over $2 million in assets. Our algorithm..."
           links={[
             { label: "X (Twitter)", href: "#" },
@@ -43,7 +43,7 @@ export const OurToolsSection = () => {
         />
 
         <OurToolsSectionItem
-          title="Binance Price Jumps"
+          title="CryptoRoiSharks"
           description={t("ABOUT_SECTION.TEXT_1_2")}
           links={[
             { label: "Details", href: "#" },
@@ -53,7 +53,7 @@ export const OurToolsSection = () => {
         />
 
         <OurToolsSectionItem
-          title={"Uniswap Price Jumps"}
+          title={"BigFishGoNiche"}
           description={t("ABOUT_SECTION.TEXT_1_2")}
           links={[
             { label: "Details", href: "#" },
@@ -63,7 +63,7 @@ export const OurToolsSection = () => {
         />
 
         <OurToolsSectionItem
-          title={"Binance Price Amplitudes"}
+          title={"CryptoWakeUps"}
           description={t("ABOUT_SECTION.TEXT_1_2")}
           links={[
             { label: "Details", href: "#" },
@@ -75,7 +75,7 @@ export const OurToolsSection = () => {
       <OurToolsDivider />
       <div
         ref={ref}
-        className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 max-w-screen-xl mx-auto gap-8 md:gap-16 items-start"
+        className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 max-w-screen-xl mx-auto gap-8 md:gap-12 items-start"
       >
         <OurToolsSectionItem
           title={"Uniswap Price Amplitudes"}

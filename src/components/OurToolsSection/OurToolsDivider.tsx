@@ -21,7 +21,7 @@ export const OurToolsDivider = () => {
         hidden: { opacity: 0, y: 100 },
       }}
       transition={{ duration: 0.8, delay: 0.2 }}
-      className="w-full"
+      className="flex gap-8 items-center w-full max-w-screen-xl"
     >
       <div ref={ref} className="flex gap-8 items-center w-full max-w-screen-xl">
         <div className="grow h-[1px] bg-neutral-600/50"></div>
