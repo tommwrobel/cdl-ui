@@ -1,13 +1,12 @@
 "use client";
+import { LuExternalLink } from "react-icons/lu";
 import { Section } from "../Section/Section";
-import { PrimaryActionButton } from "../PrimaryActionButton/PrimaryActionButton";
-import { useTranslation } from "@/hooks/useTranslation";
-import { Text, Title } from "@/ui";
 import { SectionTitle } from "../SectionTitle/SectionTitle";
+import { Text } from "@/ui";
 
 export const BismuthSection = () => {
   return (
-    <Section className="bg-neutral-950/50 relative backdrop-blur-xs">
+    <Section className="bg-neutral-950/50 relative backdrop-blur-xs bg-[url('../../public/images/bismuth-outline.svg')] bg-no-repeat bg-center">
       <div className="flex flex-col md:flex-row items-center max-w-screen-xl mx-auto gap-16">
         <div className="relative order-0 md:order-1 md:flex flex-col lg:basis-1/2 md:basis-1/3 gap-6 items-center">
           <div className="flex items-center justify-center">
@@ -20,7 +19,9 @@ export const BismuthSection = () => {
         </div>
         <div className="order-1 md:order-0 flex flex-col lg:basis-1/2 md:basis-2/3 gap-12 justify-center items-center md:items-start">
           <div className="flex flex-col gap-6 items-center md:items-start">
-            <SectionTitle className="md:text-left text-center">About Bismuth</SectionTitle>
+            <SectionTitle className="md:text-left text-center">
+              About Bismuth
+            </SectionTitle>
             <Text className="text-center text-md md:text-left text-textColor-dark">
               Bismuth is an open-source protocol and a platform, created in the
               world’s most popular and fastest growing programming language -
@@ -32,12 +33,12 @@ export const BismuthSection = () => {
               like applications and games with the blockchain.
             </Text>
             <Text className="text-center text-md md:text-left">
-              Check more:{" "}
+              Check out more:{" "}
               <a
                 href="https://www.bismuthtechgem.com"
-                className="text-textColor hover:text-textColor-light underline"
+                className="text-textColor hover:text-textColor-light underline inline-flex gap-1 items-center"
               >
-                www.bismuthtechgem.com
+                www.bismuthtechgem.com <LuExternalLink />
               </a>
             </Text>
           </div>

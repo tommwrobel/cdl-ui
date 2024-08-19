@@ -4,9 +4,9 @@ import { useEffect, useRef } from "react";
 import { Section } from "../Section/Section";
 import { PrimaryActionButton } from "../PrimaryActionButton/PrimaryActionButton";
 import { OurToolsSectionItem } from "./OurToolsSectionItem";
+import { OurToolsDivider } from "./OurToolsDivider";
 import { useTranslation } from "@/hooks/useTranslation";
 import { Title } from "@/ui";
-import { OurToolsDivider } from "./OurToolsDivider";
 
 export const OurToolsSection = () => {
   const { t } = useTranslation("home");
@@ -33,11 +33,11 @@ export const OurToolsSection = () => {
       >
         <OurToolsSectionItem
           title="Ethereum Whales"
-          description={t("ABOUT_SECTION.TEXT_1_2")}
+          description="We analyze Ethereum’s blockchain, focusing on whale addresses with over $2 million in assets. Our algorithm..."
           links={[
-            { label: "Details", href: "#" },
-            { label: "Link", href: "#" },
-            { label: "Twitter", href: "#" },
+            { label: "X (Twitter)", href: "#" },
+            { label: "Telegram", href: "#" },
+            { label: "Discord", href: "#" },
           ]}
           free
         />

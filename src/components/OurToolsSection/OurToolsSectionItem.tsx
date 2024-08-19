@@ -49,8 +49,8 @@ export const OurToolsSectionItem = ({
       <div
         ref={ref}
         className={cn(
-          "relative group bg-bgColor/40 border border-neutral-600/50 border-solid backdrop-blur-xs rounded-2xl w-full p-8 flex flex-col gap-6 justify-start",
-          "hover:scale-105 hover:border-secondary duration-300 hover:bg-bgColor/25 overflow-hidden",
+          "relative group bg-bgColor/25 border border-neutral-600/50 border-solid backdrop-blur-xs rounded-2xl w-full p-8 flex flex-col gap-6 justify-start",
+          "hover:scale-105 hover:border-secondary duration-300 hover:bg-bgColor/50 overflow-hidden",
           className
         )}
         {...props}
@@ -65,28 +65,27 @@ export const OurToolsSectionItem = ({
           )}
           <div className="flex gap-3 items-center">
             {icon}
-            <Title
-              size="xl"
-              className="bg-gradient-to-r from-primary to-secondary text-transparent bg-clip-text pr-8"
-            >
+            <Title size="xl" className="text-gradient pr-8">
               {title}
             </Title>
           </div>
         </div>
         <Text className="text-textColor-dark">{description}</Text>
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-x-2 gap-y-0 flex-wrap">
           {links &&
             links.map((link, index) => (
               <>
                 <a
                   href={link.href}
                   key={link.label}
-                  className="text-textColor hover:text-textColor-light underline"
+                  className="text-textColor hover:text-textColor-light underline text-md"
                 >
                   {link.label}
                 </a>
                 {links.length > 1 && index < links.length - 1 && (
-                  <div className="rounded-full w-1 h-1 bg-textColor-dark"></div>
+                  <div className="opacity-50 text-textColor-dark text-sm cursor-default">
+                    /
+                  </div>
                 )}
               </>
             ))}

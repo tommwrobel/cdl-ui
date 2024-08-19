@@ -56,6 +56,7 @@ const config: Config = {
       },
       backgroundImage: {
         "bg-element": "url('../../public/images/bg-element.png')",
+        "bismuth-outline": "url('../../public/images/bismuth-outline.svg')",
       },
       keyframes: {
         wiggle: {
