@@ -1,6 +1,6 @@
 import { HeroSection } from "../components/HeroSection/HeroSection";
 import { OurToolsSection } from "../components/OurToolsSection/OurToolsSection";
-import { NumbersSection } from "../components/NumbersSection/NumbersSection";
+import { BismuthSection } from "../components/BismuthSection/BismuthSection";
 import { CategoriesSection } from "../components/CategoriesSection/CategoriesSection";
 import { RiskNoticeSection } from "../components/RiskNoticeSection/RiskNoticeSection";
 import { FooterSection } from "../components/FooterSection/FooterSection";
@@ -13,7 +13,7 @@ export default function Home() {
     <main className="bg-bg-element bg-no-repeat bg-left-top bg-fixed snap-y snap-mandatory overflow-y-scroll h-screen scroll-smooth">
       <HeroSection />
       <OurToolsSection />
-      <NumbersSection />
+      <BismuthSection />
       <LinksSection />
       <RiskNoticeSection />
       <FooterSection />

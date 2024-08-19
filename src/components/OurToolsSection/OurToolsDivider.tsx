@@ -26,8 +26,8 @@ export const OurToolsDivider = () => {
       <div ref={ref} className="flex gap-8 items-center w-full max-w-screen-xl">
         <div className="grow h-[1px] bg-neutral-600/50"></div>
         <div className="flex items-center gap-5">
-          <img src="/images/cs-logo.png" className="w-16 h-16 animate-wiggle" />
-          <Title className="text-textColor shrink-0" size="xl">
+          <img src="/images/cs-logo.png" className="w-12 h-12 md:w-16 md:h-16 animate-wiggle" />
+          <Title className="text-textColor shrink-0 text-lg md:text-xl">
             Crypto Sanctuary
           </Title>
         </div>
