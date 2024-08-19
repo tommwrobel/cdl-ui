@@ -4,8 +4,15 @@ import { cn, Text, Title } from "@/ui";
 
 type Link = {
   label: string;
-  href: string;
-};
+  startIcon?: React.ReactNode;
+  endIcon?: React.ReactNode;
+} & (
+  | {
+      href: string;
+      onClick?: never;
+    }
+  | { onClick: () => void; href?: never }
+);
 
 type OurToolsSectionItemProps = HTMLAttributes<HTMLDivElement> & {
   icon?: React.ReactNode;
@@ -44,12 +51,12 @@ export const OurToolsSectionItem = ({
         hidden: { opacity: 0, y: 100 },
       }}
       transition={{ duration: 0.8, delay: 0.2 }}
-      className="w-full"
+      className="w-full h-full"
     >
       <div
         ref={ref}
         className={cn(
-          "relative group bg-bgColor/25 border border-neutral-600/50 border-solid backdrop-blur-xs rounded-2xl w-full p-8 flex flex-col gap-6 justify-start",
+          "relative h-full group bg-bgColor/25 border border-neutral-600/50 border-solid backdrop-blur-xs rounded-2xl w-full p-8 flex flex-col gap-6 justify-start",
           "hover:scale-105 hover:border-secondary duration-300 hover:bg-bgColor/50 overflow-hidden",
           className
         )}
@@ -71,16 +78,17 @@ export const OurToolsSectionItem = ({
           </div>
         </div>
         <Text className="text-textColor-dark">{description}</Text>
-        <div className="flex items-center gap-x-2 gap-y-0 flex-wrap">
+        <div className="flex items-center gap-x-2 gap-y-0 flex-wrap mt-auto">
           {links &&
             links.map((link, index) => (
               <>
                 <a
                   href={link.href}
                   key={link.label}
-                  className="text-textColor hover:text-textColor-light underline text-md"
+                  className="text-textColor hover:text-textColor-light underline text-md flex items-center gap-1 cursor-pointer"
+                  onClick={link.onClick}
                 >
-                  {link.label}
+                  {link?.startIcon} {link.label} {link?.endIcon}
                 </a>
                 {links.length > 1 && index < links.length - 1 && (
                   <div className="opacity-50 text-textColor-dark text-sm cursor-default">
@@ -95,4 +103,4 @@ export const OurToolsSectionItem = ({
   );
 };
 
-OurToolsSectionItem.displayName = "AboutSectionBox";
+OurToolsSectionItem.displayName = "OurToolsSectionItem";

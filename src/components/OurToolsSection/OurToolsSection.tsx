@@ -1,8 +1,10 @@
 "use client";
 import { motion, useAnimation, useInView } from "framer-motion";
 import { useEffect, useRef } from "react";
+import { LuExternalLink } from "react-icons/lu";
 import { Section } from "../Section/Section";
 import { PrimaryActionButton } from "../PrimaryActionButton/PrimaryActionButton";
+import { SectionTitle } from "../SectionTitle/SectionTitle";
 import { OurToolsSectionItem } from "./OurToolsSectionItem";
 import { OurToolsDivider } from "./OurToolsDivider";
 import { useTranslation } from "@/hooks/useTranslation";
@@ -27,47 +29,47 @@ export const OurToolsSection = () => {
       className="flex gap-16 flex-col items-center"
       animate={false}
     >
+      <SectionTitle>Our Tools</SectionTitle>
       <div
         ref={ref}
         className="grid grid-cols-1 md:grid-cols-2 max-w-screen-xl mx-auto gap-8 md:gap-12 items-start"
       >
         <OurToolsSectionItem
           title="CryptoRoiWhales"
-          description="We analyze Ethereum’s blockchain, focusing on whale addresses with over $2 million in assets. Our algorithm..."
+          description="Every single day, we embark on a journey through the vast expanse of the Ethereum blockchain, analyzing hundreds of millions of addresses and meticulously examining each of the hundreds of billions of transactions that ripple through its network."
           links={[
-            { label: "X (Twitter)", href: "#" },
-            { label: "Telegram", href: "#" },
-            { label: "Discord", href: "#" },
+            { label: "More info", href: "#" },
+            { label: "Telegram", href: "#", endIcon: <LuExternalLink /> },
           ]}
           free
         />
 
         <OurToolsSectionItem
           title="CryptoRoiSharks"
-          description={t("ABOUT_SECTION.TEXT_1_2")}
+          description="Just like with the 'CryptoRoiWhales' tool, we analyze billions of transactions and millions of addresses on the ethereum blockchain (Other Blockchains Coming Soon) every day."
           links={[
-            { label: "Details", href: "#" },
-            { label: "Twitter", href: "#" },
+            { label: "More info", onClick: () => console.log("clicked") },
+            { label: "Telegram", href: "#", endIcon: <LuExternalLink /> },
           ]}
           free
         />
 
         <OurToolsSectionItem
           title={"BigFishGoNiche"}
-          description={t("ABOUT_SECTION.TEXT_1_2")}
+          description="In this project, we show how the 'Whales' and 'Sharks' from our two projects described above enter niche projects with low liquidity on specific DEX pools. Genius, right?"
           links={[
-            { label: "Details", href: "#" },
-            { label: "Twitter", href: "#" },
+            { label: "More info", href: "#" },
+            { label: "Telegram", href: "#", endIcon: <LuExternalLink /> },
           ]}
           free
         />
 
         <OurToolsSectionItem
           title={"CryptoWakeUps"}
-          description={t("ABOUT_SECTION.TEXT_1_2")}
+          description="In this project, we monitor all tokens on Uniswap and Sushiswap. If a token had low trading volume in the last 30 days and suddenly sees a large transaction, we'll notify you immediately. It might be just a wake-up call or a full resurrection."
           links={[
-            { label: "Details", href: "#" },
-            { label: "Twitter", href: "#" },
+            { label: "More info", href: "#" },
+            { label: "Telegram", href: "#", endIcon: <LuExternalLink /> },
           ]}
           free
         />
