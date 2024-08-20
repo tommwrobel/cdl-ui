@@ -1,9 +1,8 @@
 "use client";
-import { motion, useAnimation, useInView } from "framer-motion";
+import { useAnimation, useInView } from "framer-motion";
 import { useEffect, useRef } from "react";
 import { LuExternalLink } from "react-icons/lu";
 import { Section } from "../Section/Section";
-import { PrimaryActionButton } from "../PrimaryActionButton/PrimaryActionButton";
 import { SectionTitle } from "../SectionTitle/SectionTitle";
 import { OurToolsSectionItem } from "./OurToolsSectionItem";
 import { OurToolsDivider } from "./OurToolsDivider";
@@ -36,6 +35,12 @@ export const OurToolsSection = () => {
       >
         <OurToolsSectionItem
           title="CryptoRoiWhales"
+          icon={
+            <img
+              src="/images/crypto-roi-whales-min.png"
+              className="rounded-full w-10 h-10 grayscale-[.5] group-hover:grayscale-0"
+            />
+          }
           description="Every single day, we embark on a journey through the vast expanse of the Ethereum blockchain, analyzing hundreds of millions of addresses and meticulously examining each of the hundreds of billions of transactions that ripple through its network."
           links={[
             { label: "More info", href: "#" },
@@ -46,7 +51,7 @@ export const OurToolsSection = () => {
 
         <OurToolsSectionItem
           title="CryptoRoiSharks"
-          description="Just like with the 'CryptoRoiWhales' tool, we analyze billions of transactions and millions of addresses on the ethereum blockchain (Other Blockchains Coming Soon) every day."
+          description="Just like with the 'CryptoRoiWhales' tool, we analyze billions of transactions and millions of addresses on the ethereum blockchain every day (other blockchains coming soon) ."
           links={[
             { label: "More info", onClick: () => console.log("clicked") },
             { label: "Telegram", href: "#", endIcon: <LuExternalLink /> },
