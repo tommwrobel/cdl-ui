@@ -27,7 +27,7 @@ export const OurToolsSection = () => {
       className="flex gap-16 flex-col items-center"
       animate={false}
     >
-      <SectionTitle>Our Tools</SectionTitle>
+      <SectionTitle animate>Our Tools</SectionTitle>
       <div
         ref={ref}
         className="grid grid-cols-1 md:grid-cols-2 max-w-screen-xl mx-auto gap-8 md:gap-12 items-start"
@@ -106,8 +106,12 @@ export const OurToolsSection = () => {
           title={"Uniswap Price Amplitudes"}
           description={t("ABOUT_SECTION.TEXT_1_2")}
           links={[
-            { label: "Details", href: "#" },
-            { label: "Twitter", href: "#" },
+            { label: "More info", onClick: () => null },
+            {
+              label: "Discord",
+              href: "https://discord.gg/vznWRWs6hz",
+              endIcon: <LuExternalLink />,
+            },
           ]}
           free
         />
@@ -117,8 +121,12 @@ export const OurToolsSection = () => {
           title={"Uniswap Top Gainers/Losers"}
           description={t("ABOUT_SECTION.TEXT_1_2")}
           links={[
-            { label: "Details", href: "#" },
-            { label: "Twitter", href: "#" },
+            { label: "More info", onClick: () => null },
+            {
+              label: "Discord",
+              href: "https://discord.gg/vznWRWs6hz",
+              endIcon: <LuExternalLink />,
+            },
           ]}
           free
         />
@@ -128,8 +136,12 @@ export const OurToolsSection = () => {
           title={"Bianace MACD"}
           description={t("ABOUT_SECTION.TEXT_1_2")}
           links={[
-            { label: "Details", href: "#" },
-            { label: "Twitter", href: "#" },
+            { label: "More info", onClick: () => null },
+            {
+              label: "Discord",
+              href: "https://discord.gg/vznWRWs6hz",
+              endIcon: <LuExternalLink />,
+            },
           ]}
           free
         />
@@ -139,9 +151,12 @@ export const OurToolsSection = () => {
           title={"Uniswap MACD"}
           description={t("ABOUT_SECTION.TEXT_1_2")}
           links={[
-            { label: "Details", href: "#" },
-            { label: "Link", href: "#" },
-            { label: "Twitter", href: "#" },
+            { label: "More info", onClick: () => null },
+            {
+              label: "Discord",
+              href: "https://discord.gg/vznWRWs6hz",
+              endIcon: <LuExternalLink />,
+            },
           ]}
           free
         />
@@ -150,7 +165,14 @@ export const OurToolsSection = () => {
           icon={<img src="/images/cs-logo.png" className="w-10 h-10" />}
           title={"Uniswap MACD"}
           description={t("ABOUT_SECTION.TEXT_1_2")}
-          links={[{ label: "Details", href: "#" }]}
+          links={[
+            { label: "More info", onClick: () => null },
+            {
+              label: "Discord",
+              href: "https://discord.gg/vznWRWs6hz",
+              endIcon: <LuExternalLink />,
+            },
+          ]}
           free
         />
 
@@ -158,7 +180,14 @@ export const OurToolsSection = () => {
           icon={<img src="/images/cs-logo.png" className="w-10 h-10" />}
           title={"Uniswap MACD"}
           description={t("ABOUT_SECTION.TEXT_1_2")}
-          links={[{ label: "Details", href: "#" }]}
+          links={[
+            { label: "More info", onClick: () => null },
+            {
+              label: "Discord",
+              href: "https://discord.gg/vznWRWs6hz",
+              endIcon: <LuExternalLink />,
+            },
+          ]}
           free
         />
 
@@ -166,7 +195,14 @@ export const OurToolsSection = () => {
           icon={<img src="/images/cs-logo.png" className="w-10 h-10" />}
           title={"Uniswap MACD"}
           description={t("ABOUT_SECTION.TEXT_1_2")}
-          links={[{ label: "Details", href: "#" }]}
+          links={[
+            { label: "More info", onClick: () => null },
+            {
+              label: "Discord",
+              href: "https://discord.gg/vznWRWs6hz",
+              endIcon: <LuExternalLink />,
+            },
+          ]}
           free
         />
 
@@ -174,7 +210,14 @@ export const OurToolsSection = () => {
           icon={<img src="/images/cs-logo.png" className="w-10 h-10" />}
           title={"Uniswap MACD"}
           description={t("ABOUT_SECTION.TEXT_1_2")}
-          links={[{ label: "Details", href: "#" }]}
+          links={[
+            { label: "More info", onClick: () => null },
+            {
+              label: "Discord",
+              href: "https://discord.gg/vznWRWs6hz",
+              endIcon: <LuExternalLink />,
+            },
+          ]}
           free
         />
 
@@ -182,7 +225,14 @@ export const OurToolsSection = () => {
           icon={<img src="/images/cs-logo.png" className="w-10 h-10" />}
           title={"Uniswap MACD"}
           description={t("ABOUT_SECTION.TEXT_1_2")}
-          links={[{ label: "Details", href: "#" }]}
+          links={[
+            { label: "More info", onClick: () => null },
+            {
+              label: "Discord",
+              href: "https://discord.gg/vznWRWs6hz",
+              endIcon: <LuExternalLink />,
+            },
+          ]}
           free
         />
       </div>

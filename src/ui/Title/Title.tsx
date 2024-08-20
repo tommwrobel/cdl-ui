@@ -35,6 +35,7 @@ export interface TitleProps
   extends HTMLAttributes<HTMLHeadingElement>,
     VariantProps<typeof titleVariants> {
   as?: "h1" | "h2" | "h3" | "h4";
+  componentRef?: React.RefObject<HTMLHeadingElement>;
 }
 
 export const Title = ({
@@ -44,12 +45,14 @@ export const Title = ({
   as = "h1",
   children,
   className,
+  componentRef,
   ...props
 }: TitleProps) => {
   const Component = as;
 
   return (
     <Component
+      ref={componentRef}
       className={cn(titleVariants({ size, weight, brightness, className }))}
       {...props}
     >

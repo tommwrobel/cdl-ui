@@ -1,58 +1,81 @@
 import { LuExternalLink } from "react-icons/lu";
 import { Section } from "../Section/Section";
-import { useTranslation } from "@/hooks/useTranslation";
-import { Button, Title } from "@/ui";
 import { SectionTitle } from "../SectionTitle/SectionTitle";
+import { FacebookIcon } from "../icons/FacebookIcon";
+import { CoinMarketCapIcon } from "../icons/CoinMarketCapIcon";
+import { DiscordIcon } from "../icons/DiscordIcon";
+import { XIcon } from "../icons/XIcon";
+import { TelegramIcon } from "../icons/TelegramIcon";
+import { Button } from "@/ui";
 
-type Link = { href: string; label: string };
+type Link = { href: string; label: string; icon?: React.ReactNode };
 const links: Link[] = [
-  { href: "https://bismuth.finance", label: "Bismuth Finance" },
-  { href: "https://discord.gg/ADfwYbQJ7q", label: "Discord" },
-  { href: "https://twitter.com/BismuthTechGem", label: "X (Twitter)" },
   {
-    href: "https://www.facebook.com/profile.php?id=61550220960162",
-    label: "Facebook",
+    href: "https://www.facebook.com/profile.php?id=61561424674133",
+    label: "CDL Facebook",
+    icon: <img src="/images/cdl-logo.svg" className="w-6 h-6" />,
   },
   {
-    href: "https://coinmarketcap.com/pl/currencies/bismuth/",
-    label: "CoinMarketCap",
-  },
-  { href: "https://www.coingecko.com/pl/waluty/bismuth", label: "CoinGecko" },
-  { href: "https://github.com/bismuthfoundation", label: "GitHub" },
-  { href: "https://bismuth.im/", label: "Explorer" },
-  {
-    href: "https://www.dextools.io/app/en/ether/pair-explorer/0xf4f82f8d84c529987201609cecee8ab136a50c8c?t=1712473531745",
-    label: "Uniswap ERC-20 (Ether)",
+    href: "https://coinmarketcap.com/community/profile/CryptoDataLab/",
+    label: "CDL CoinMarketCap",
+    icon: <img src="/images/cdl-logo.svg" className="w-6 h-6" />,
   },
   {
-    href: "https://www.dextools.io/app/en/bnb/pair-explorer/0x731b8244f818fd488d9dc516edd976a96459ae59?t=1712473620769",
-    label: "PancakeSwap BSC",
+    href: "https://x.com/CryptoDataLab",
+    label: "CDL X (Twitter)",
+    icon: <img src="/images/cdl-logo.svg" className="w-6 h-6" />,
   },
   {
-    href: "https://xeggex.com/market/BIS_USDT ",
-    label: "Xeggex BIS/USDT",
+    href: "#",
+    label: "CDL Telegram",
+    icon: <img src="/images/cdl-logo.svg" className="w-6 h-6" />,
   },
   {
-    href: "https://xeggex.com/market/BIS_LTC",
-    label: "Xeggex BIS/LTC",
+    href: "https://x.com/CryptoSanctuar",
+    label: "Crypto Sanctuary",
+    icon: <img src="/images/cs-logo.png" className="w-6 h-6" />,
+  },
+  {
+    href: "https://discord.gg/vznWRWs6hz",
+    label: "CS Discord",
+    icon: <img src="/images/cs-logo.png" className="w-6 h-6" />,
+  },
+  {
+    href: "https://x.com/CryptoSanctuar",
+    label: "CS X (Twitter)",
+    icon: <img src="/images/cs-logo.png" className="w-6 h-6" />,
+  },
+  {
+    href: "https://www.bismuthtechgem.com/",
+    label: "Bismuth Tech Gem",
+    icon: <img src="/images/bismuth-logo.svg" className="w-6 h-6" />,
   },
 ];
 
 export const LinksSection = () => {
-  const { t } = useTranslation("home");
-
   return (
     <Section className="bg-neutral-950/50 py-12 md:py-12 border-t border-neutral/25">
       <div className="flex flex-col items-center mx-auto gap-12">
         <SectionTitle className="text-center">
           Get started today and become part of our vibrant community!
         </SectionTitle>
-        <div className="max-w-screen-xl grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-2 justify-between justify-items-center w-full">
-          {links.map(({ href, label }) => (
-            <a href={href} target="_blank" title={href} key={href}>
-              <Button rel="noopener noreferrer" variant="outline" size="sm">
+        <div className="max-w-screen-xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 justify-between justify-items-center w-full">
+          {links.map(({ href, label, icon }) => (
+            <a
+              href={href}
+              target="_blank"
+              title={href}
+              key={href}
+              className="w-full"
+            >
+              <Button
+                rel="noopener noreferrer"
+                variant="outline"
+                size="md"
+                className="w-full"
+              >
+                {icon}
                 {label}
-                <LuExternalLink />
               </Button>
             </a>
           ))}

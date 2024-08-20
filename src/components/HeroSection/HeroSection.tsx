@@ -20,7 +20,7 @@ export const HeroSection = () => {
           <PrimaryActionButton />
           <a href="#about" title="Read how it works!">
             <Button variant="ghost">
-              About the project <LuArrowDown />
+              Our Tools <LuArrowDown />
             </Button>
           </a>
         </div>
