@@ -7,7 +7,6 @@ import { SectionTitle } from "../SectionTitle/SectionTitle";
 import { OurToolsSectionItem } from "./OurToolsSectionItem";
 import { OurToolsDivider } from "./OurToolsDivider";
 import { useTranslation } from "@/hooks/useTranslation";
-import { Title } from "@/ui";
 
 export const OurToolsSection = () => {
   const { t } = useTranslation("home");
@@ -51,6 +50,12 @@ export const OurToolsSection = () => {
 
         <OurToolsSectionItem
           title="CryptoRoiSharks"
+          icon={
+            <img
+              src="/images/crypto-roi-whales-min.png"
+              className="rounded-full w-10 h-10 grayscale-[.5] group-hover:grayscale-0"
+            />
+          }
           description="Just like with the 'CryptoRoiWhales' tool, we analyze billions of transactions and millions of addresses on the ethereum blockchain every day (other blockchains coming soon) ."
           links={[
             { label: "More info", onClick: () => console.log("clicked") },
@@ -60,7 +65,13 @@ export const OurToolsSection = () => {
         />
 
         <OurToolsSectionItem
-          title={"BigFishGoNiche"}
+          title="BigFishGoNiche"
+          icon={
+            <img
+              src="/images/crypto-roi-whales-min.png"
+              className="rounded-full w-10 h-10 grayscale-[.5] group-hover:grayscale-0"
+            />
+          }
           description="In this project, we show how the 'Whales' and 'Sharks' from our two projects described above enter niche projects with low liquidity on specific DEX pools. Genius, right?"
           links={[
             { label: "More info", href: "#" },
@@ -70,7 +81,13 @@ export const OurToolsSection = () => {
         />
 
         <OurToolsSectionItem
-          title={"CryptoWakeUps"}
+          title="CryptoWakeUps"
+          icon={
+            <img
+              src="/images/crypto-roi-whales-min.png"
+              className="rounded-full w-10 h-10 grayscale-[.5] group-hover:grayscale-0"
+            />
+          }
           description="In this project, we monitor all tokens on Uniswap and Sushiswap. If a token had low trading volume in the last 30 days and suddenly sees a large transaction, we'll notify you immediately. It might be just a wake-up call or a full resurrection."
           links={[
             { label: "More info", href: "#" },
@@ -85,6 +102,7 @@ export const OurToolsSection = () => {
         className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 max-w-screen-xl mx-auto gap-8 md:gap-12 items-start"
       >
         <OurToolsSectionItem
+          icon={<img src="/images/cs-logo.png" className="w-10 h-10" />}
           title={"Uniswap Price Amplitudes"}
           description={t("ABOUT_SECTION.TEXT_1_2")}
           links={[
