@@ -1,11 +1,5 @@
-import { LuExternalLink } from "react-icons/lu";
 import { Section } from "../Section/Section";
 import { SectionTitle } from "../SectionTitle/SectionTitle";
-import { FacebookIcon } from "../icons/FacebookIcon";
-import { CoinMarketCapIcon } from "../icons/CoinMarketCapIcon";
-import { DiscordIcon } from "../icons/DiscordIcon";
-import { XIcon } from "../icons/XIcon";
-import { TelegramIcon } from "../icons/TelegramIcon";
 import { Button } from "@/ui";
 
 type Link = { href: string; label: string; icon?: React.ReactNode };

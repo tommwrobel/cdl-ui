@@ -1,9 +1,10 @@
 "use client";
 import { useAnimation, useInView } from "framer-motion";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { LuExternalLink } from "react-icons/lu";
 import { Section } from "../Section/Section";
 import { SectionTitle } from "../SectionTitle/SectionTitle";
+import { Modal } from "../../ui";
 import { OurToolsSectionItem } from "./OurToolsSectionItem";
 import { OurToolsDivider } from "./OurToolsDivider";
 import { useTranslation } from "@/hooks/useTranslation";
@@ -40,9 +41,9 @@ export const OurToolsSection = () => {
               className="rounded-full w-10 h-10 grayscale-[.5] group-hover:grayscale-0"
             />
           }
-          description="Every single day, we embark on a journey through the vast expanse of the Ethereum blockchain, analyzing hundreds of millions of addresses and meticulously examining each of the hundreds of billions of transactions that ripple through its network."
+          description="Each day, we dive into the Ethereum blockchain (Other Blockchains Coming Soon), examining millions of addresses and billions of transactions. We identify whales holding over $1 million in ETH and tokens, showcasing their transactions in real time."
           links={[
-            { label: "More info", href: "#" },
+            { label: "More info", onClick: () => null },
             { label: "Telegram", href: "#", endIcon: <LuExternalLink /> },
           ]}
           free
@@ -52,11 +53,11 @@ export const OurToolsSection = () => {
           title="CryptoRoiSharks"
           icon={
             <img
-              src="/images/crypto-roi-whales-min.png"
+              src="/images/crypto-roi-sharks-min.png"
               className="rounded-full w-10 h-10 grayscale-[.5] group-hover:grayscale-0"
             />
           }
-          description="Just like with the 'CryptoRoiWhales' tool, we analyze billions of transactions and millions of addresses on the ethereum blockchain every day (other blockchains coming soon) ."
+          description='Like with "CryptoRoiWhales", we analyze billions of Ethereum transactions daily, identifying top-performing addresses. We showcase all transactions of addresses that have achieved over 1000% profit in their entire transaction history.'
           links={[
             { label: "More info", onClick: () => console.log("clicked") },
             { label: "Telegram", href: "#", endIcon: <LuExternalLink /> },
@@ -84,7 +85,7 @@ export const OurToolsSection = () => {
           title="CryptoWakeUps"
           icon={
             <img
-              src="/images/crypto-roi-whales-min.png"
+              src="/images/crypto-wake-ups-min.png"
               className="rounded-full w-10 h-10 grayscale-[.5] group-hover:grayscale-0"
             />
           }
