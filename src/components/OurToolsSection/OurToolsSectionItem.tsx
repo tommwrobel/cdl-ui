@@ -134,7 +134,6 @@ export const OurToolsSectionItem = ({
           onClose={() => setIsModalOpen(false)}
           title={title}
           content={extendedDescription}
-          free={free}
           actionButton={primaryLink && { label: primaryLink.label, href: primaryLink.href, icon: primaryLink.icon }}
         />
       )}

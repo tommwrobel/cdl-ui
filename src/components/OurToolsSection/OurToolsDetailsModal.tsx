@@ -13,7 +13,6 @@ import { Button, Text } from "@/ui";
 type OurToolsDetailsModalProps = PropsWithChildren & {
   open: boolean;
   onClose: () => void;
-  free?: boolean;
   title: React.ReactNode;
   actionButton?: { label: string; href: string; icon: React.ReactNode };
   content: React.ReactNode;
@@ -22,7 +21,6 @@ type OurToolsDetailsModalProps = PropsWithChildren & {
 export const OurToolsDetailsModal = ({
   content,
   title,
-  free,
   open,
   onClose,
   actionButton,
@@ -36,7 +34,7 @@ export const OurToolsDetailsModal = ({
       <div className="fixed inset-0 flex items-center justify-center w-screen p-8">
         <DialogPanel
           transition
-          className="flex flex-col gap-10 bg-bg-element bg-no-repeat relative md:max-w-screen-md md:max-h-[60%] max-h-[100%] w-[100%] rounded-lg border p-12 border-primary bg-bgColor duration-500 ease-out opacity-100 data-[closed]:opacity-0 data-[closed]:translate-y-8 data-[closed]:scale-90"
+          className="flex flex-col gap-10 bg-bg-element bg-no-repeat relative md:max-w-screen-md md:max-h-[80%] max-h-[100%] w-[100%] rounded-lg border p-12 border-primary bg-bgColor duration-500 ease-out opacity-100 data-[closed]:opacity-0 data-[closed]:translate-y-8 data-[closed]:scale-90"
         >
           <DialogTitle className="flex items-center gap-4">
             <Button
@@ -47,13 +45,8 @@ export const OurToolsDetailsModal = ({
             >
               <LuX />
             </Button>
-            <SectionTitle className="flex items-center gap-4">
+            <SectionTitle>
               {title}
-              {free && (
-                <div className="flex items-center h-6 px-3 py-2 text-sm rounded-full leading-0 text-textColor-light bg-gradient-to-tr from secondary to-primary">
-                  FREE
-                </div>
-              )}
             </SectionTitle>
           </DialogTitle>
           <Description className="flex flex-col flex-grow gap-6 overflow-auto scrollbar-thumb-secondary scrollbar-track-transparent scrollbar-thin">
