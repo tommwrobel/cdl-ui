@@ -21,7 +21,7 @@ export const CategoryItem = ({
           props.className
         )}
       >
-        <div className="w-72 lg:w-96 h-full flex justify-center shrink-0 my-auto">
+        <div className="flex justify-center h-full my-auto w-72 lg:w-96 shrink-0">
           {img}
         </div>
         <div className="flex flex-col gap-6">

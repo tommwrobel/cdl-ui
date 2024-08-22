@@ -7,8 +7,8 @@ import { Text } from "@/ui";
 export const BismuthSection = () => {
   return (
     <Section className="bg-neutral-950/50 relative backdrop-blur-xs bg-[url('../../public/images/bismuth-outline.svg')] bg-no-repeat bg-center">
-      <div className="flex flex-col md:flex-row items-center max-w-screen-xl mx-auto gap-16">
-        <div className="relative order-0 md:order-1 md:flex flex-col lg:basis-1/2 md:basis-1/3 gap-6 items-center">
+      <div className="flex flex-col items-center mx-auto md:flex-row max-w-screen-xl gap-16">
+        <div className="relative flex-col items-center order-0 md:order-1 md:flex lg:basis-1/2 md:basis-1/3 gap-6">
           <div className="flex items-center justify-center">
             <img
               src="/images/bismuth-logo.svg"
@@ -17,9 +17,9 @@ export const BismuthSection = () => {
             />
           </div>
         </div>
-        <div className="order-1 md:order-0 flex flex-col lg:basis-1/2 md:basis-2/3 gap-12 justify-center items-center md:items-start">
-          <div className="flex flex-col gap-6 items-center md:items-start">
-            <SectionTitle className="md:text-left text-center">
+        <div className="flex flex-col items-center justify-center order-1 md:order-0 lg:basis-1/2 md:basis-2/3 gap-12 md:items-start">
+          <div className="flex flex-col items-center gap-6 md:items-start">
+            <SectionTitle className="text-center md:text-left">
               About Bismuth
             </SectionTitle>
             <Text className="text-center text-md md:text-left text-textColor-dark">
@@ -36,7 +36,7 @@ export const BismuthSection = () => {
               Check out more:{" "}
               <a
                 href="https://www.bismuthtechgem.com"
-                className="text-textColor hover:text-textColor-light underline inline-flex gap-1 items-center"
+                className="inline-flex items-center underline text-textColor hover:text-textColor-light gap-1"
               >
                 www.bismuthtechgem.com <LuExternalLink />
               </a>

@@ -6,8 +6,8 @@ export const RiskNoticeSection = () => {
   const { t } = useTranslation("home");
 
   return (
-    <Section className="bg-neutral-950/50 py-12 md:py-12 border-b border-t border-neutral/25">
-      <div className="max-w-screen-xl flex flex-col gap-4 mx-auto items-start">
+    <Section className="py-12 border-t border-b bg-neutral-950/50 md:py-12 border-neutral/25">
+      <div className="flex flex-col items-start mx-auto max-w-screen-xl gap-4">
         <div className="px-2 py-1 rounded-lg bg-primary">
           <Text size="sm" weight="bold" className="text-white">
             RISK NOTICE

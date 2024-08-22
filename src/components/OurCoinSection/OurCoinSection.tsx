@@ -9,16 +9,16 @@ export const OurCoinSection = () => {
 
   return (
     <Section className="py-12 md:py-12 bg-neutral-300">
-      <div className="max-w-screen-md flex flex-col md:flex-row items-center gap-24 mx-auto">
+      <div className="flex flex-col items-center mx-auto max-w-screen-md md:flex-row gap-24">
         <img src="./images/bismuth-logo.svg" width={92} height={92} alt="" />
-        <div className="flex flex-col gap-6 items-center md:items-start">
-          <Title size="2xl" className="text-primary text-center md:text-left">
+        <div className="flex flex-col items-center gap-6 md:items-start">
+          <Title size="2xl" className="text-center text-primary md:text-left">
             {t("OUR_COIN_SECTION.TITLE")}
           </Title>
           <Text className="text-center md:text-left">
             {t("OUR_COIN_SECTION.DESCRIPTION")}
           </Text>
-          <div className="flex gap-2 justify-start">
+          <div className="flex justify-start gap-2">
             <a href="https://twitter.com/BismuthTechGem" target="_blank">
               <Button variant="ghost">
                 <XIcon />

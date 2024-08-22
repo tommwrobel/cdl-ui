@@ -30,7 +30,7 @@ export const useCategories = (): Category[] => {
             <Trans
               i18nKey="home:CATEGORIES_SECTION.CATEGORY_1.DESCRIPTION.TEXT_1"
               components={{
-                strong: <strong className="text-textColor font-semibold" />,
+                strong: <strong className="font-semibold text-textColor" />,
               }}
             />
           </Text>
@@ -38,7 +38,7 @@ export const useCategories = (): Category[] => {
             <Trans
               i18nKey="home:CATEGORIES_SECTION.CATEGORY_1.DESCRIPTION.TEXT_2"
               components={{
-                strong: <strong className="text-textColor font-semibold" />,
+                strong: <strong className="font-semibold text-textColor" />,
               }}
             />
           </Text>
@@ -46,7 +46,7 @@ export const useCategories = (): Category[] => {
             <Trans
               i18nKey="home:CATEGORIES_SECTION.CATEGORY_1.DESCRIPTION.TEXT_3"
               components={{
-                strong: <strong className="text-textColor font-semibold" />,
+                strong: <strong className="font-semibold text-textColor" />,
               }}
             />
           </Text>
@@ -54,7 +54,7 @@ export const useCategories = (): Category[] => {
             <Trans
               i18nKey="home:CATEGORIES_SECTION.CATEGORY_1.DESCRIPTION.TEXT_4"
               components={{
-                strong: <strong className="text-textColor font-semibold" />,
+                strong: <strong className="font-semibold text-textColor" />,
               }}
             />
           </Text>
@@ -62,7 +62,7 @@ export const useCategories = (): Category[] => {
             <Trans
               i18nKey="home:CATEGORIES_SECTION.CATEGORY_1.DESCRIPTION.TEXT_5"
               components={{
-                strong: <strong className="text-textColor font-semibold" />,
+                strong: <strong className="font-semibold text-textColor" />,
               }}
             />
           </Text>
@@ -70,12 +70,12 @@ export const useCategories = (): Category[] => {
             <Trans
               i18nKey="home:CATEGORIES_SECTION.CATEGORY_1.DESCRIPTION.TEXT_6"
               components={{
-                strong: <strong className="text-textColor font-semibold" />,
+                strong: <strong className="font-semibold text-textColor" />,
               }}
             />{" "}
             <a
               href="https://www.youtube.com/watch?v=y3r3WcT3P2Q"
-              className="text-primary underline"
+              className="underline text-primary"
             >
               https://www.youtube.com/watch?v=y3r3WcT3P2Q
             </a>
@@ -104,12 +104,12 @@ export const useCategories = (): Category[] => {
             <Trans
               i18nKey="home:CATEGORIES_SECTION.CATEGORY_2.DESCRIPTION.TEXT_2"
               components={{
-                strong: <strong className="text-textColor font-semibold" />,
+                strong: <strong className="font-semibold text-textColor" />,
               }}
             />{" "}
             <a
               href="https://www.youtube.com/watch?v=y3r3WcT3P2Q"
-              className="text-primary underline"
+              className="underline text-primary"
             >
               https://www.youtube.com/watch?v=y3r3WcT3P2Q
             </a>
@@ -135,7 +135,7 @@ export const useCategories = (): Category[] => {
             <Trans
               i18nKey="home:CATEGORIES_SECTION.CATEGORY_3.DESCRIPTION.TEXT_1"
               components={{
-                strong: <strong className="text-textColor font-semibold" />,
+                strong: <strong className="font-semibold text-textColor" />,
               }}
             />
           </Text>
@@ -143,12 +143,12 @@ export const useCategories = (): Category[] => {
             <Trans
               i18nKey="home:CATEGORIES_SECTION.CATEGORY_3.DESCRIPTION.TEXT_2"
               components={{
-                strong: <strong className="text-textColor font-semibold" />,
+                strong: <strong className="font-semibold text-textColor" />,
               }}
             />{" "}
             <a
               href="https://www.youtube.com/watch?v=AsHfUhrBch4&t=28s"
-              className="text-primary underline"
+              className="underline text-primary"
             >
               https://www.youtube.com/watch?v=AsHfUhrBch4&t=28s
             </a>
@@ -177,7 +177,7 @@ export const useCategories = (): Category[] => {
             <Trans
               i18nKey="home:CATEGORIES_SECTION.CATEGORY_4.DESCRIPTION.TEXT_2"
               components={{
-                strong: <strong className="text-textColor font-semibold" />,
+                strong: <strong className="font-semibold text-textColor" />,
               }}
             />
           </Text>

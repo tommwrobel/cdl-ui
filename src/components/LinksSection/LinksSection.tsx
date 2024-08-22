@@ -48,12 +48,12 @@ const links: Link[] = [
 
 export const LinksSection = () => {
   return (
-    <Section className="bg-neutral-950/50 py-12 md:py-12 border-t border-neutral/25">
+    <Section className="py-12 border-t bg-neutral-950/50 md:py-12 border-neutral/25">
       <div className="flex flex-col items-center mx-auto gap-12">
         <SectionTitle className="text-center">
           Get started today and become part of our vibrant community!
         </SectionTitle>
-        <div className="max-w-screen-xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 justify-between justify-items-center w-full">
+        <div className="justify-between w-full max-w-screen-xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 justify-items-center">
           {links.map(({ href, label, icon }) => (
             <a
               href={href}

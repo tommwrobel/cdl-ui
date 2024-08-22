@@ -21,13 +21,13 @@ export const OurToolsDivider = () => {
         hidden: { opacity: 0, y: 100 },
       }}
       transition={{ duration: 0.8, delay: 0.2 }}
-      className="flex flex-col gap-8 items-center w-full max-w-screen-xl"
+      className="flex flex-col items-center w-full gap-8 max-w-screen-xl"
     >
-      <div ref={ref} className="flex gap-8 items-center w-full max-w-screen-xl">
+      <div ref={ref} className="flex items-center w-full gap-8 max-w-screen-xl">
         <div className="grow h-[1px] bg-neutral-600/50"></div>
         <div className="flex items-center gap-5">
           <img src="/images/cs-logo.png" className="w-12 h-12 md:w-16 md:h-16 animate-wiggle" />
-          <Title className="text-textColor shrink-0 text-lg md:text-xl">
+          <Title className="text-lg text-textColor shrink-0 md:text-xl">
             Crypto Sanctuary
           </Title>
         </div>

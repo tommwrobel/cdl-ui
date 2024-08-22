@@ -7,14 +7,14 @@ import { Button, Text } from "@/ui";
 export const FooterSection = () => {
   return (
     <Section className="py-6 md:py-6" animate={false}>
-      <div className="max-w-screen-xl flex flex-col gap-4 md:flex-row items-center justify-between mx-auto">
+      <div className="flex flex-col items-center justify-between mx-auto max-w-screen-xl gap-4 md:flex-row">
         <div>
           <Text className="text-center">
             Copyright © {new Date().getFullYear()} CryptoDataLab. All rights
             reserved.
           </Text>
         </div>
-        <div className="flex gap-1 items-center">
+        <div className="flex items-center gap-1">
           <a
             href="https://www.facebook.com/profile.php?id=61561424674133"
             target="_blank"

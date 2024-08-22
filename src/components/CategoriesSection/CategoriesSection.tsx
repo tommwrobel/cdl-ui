@@ -20,9 +20,9 @@ export const CategoriesSection = () => {
 
   return (
     <Section className="overflow-hidden">
-      <div className="flex gap-16 flex-col max-w-screen-xl items-center mx-auto">
+      <div className="flex flex-col items-center mx-auto gap-16 max-w-screen-xl">
         <div className="flex flex-col items-center mx-auto gap-12 max-w-screen-sm">
-          <Title className="text-xl sm:text-2xl text-center md:text-left">
+          <Title className="text-xl text-center sm:text-2xl md:text-left">
             {t("CATEGORIES_SECTION.TITLE")}
           </Title>
           <Text className="text-center text-md text-textColor-dark">
@@ -32,8 +32,8 @@ export const CategoriesSection = () => {
             />
           </Text>
         </div>
-        <div className="flex flex-col gap-8 w-full items-center">
-          <div className="flex gap-4 flex-wrap justify-center">
+        <div className="flex flex-col items-center w-full gap-8">
+          <div className="flex flex-wrap justify-center gap-4">
             {categories.map((card, index) => (
               <CardButton
                 key={card.key}
