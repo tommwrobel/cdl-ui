@@ -25,7 +25,7 @@ const links: Link[] = [
     icon: <img src="/images/cdl-logo.svg" className="w-6 h-6" />,
   },
   {
-    href: "https://x.com/CryptoSanctuar",
+    href: "https://cryptosanctuary.io/",
     label: "Crypto Sanctuary",
     icon: <img src="/images/cs-logo.png" className="w-6 h-6" />,
   },
