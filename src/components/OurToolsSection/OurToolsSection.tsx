@@ -132,7 +132,7 @@ export const OurToolsSection = () => {
               <Text>
                 The signals you receive here are top-notch. Cream of the crop.
                 You simply get notified when an address with large holdings
-                (equivalent to over 2M USDT) or an address with excellent
+                (equivalent to over 1M USDT) or an address with excellent
                 performance (ROI over 1000%) invests in a niche token. I
                 don&apos;t think I need to explain the value of this
                 information. And, as always with us (no surprises here), you
@@ -166,8 +166,30 @@ export const OurToolsSection = () => {
               className="rounded-full w-10 h-10 grayscale-[.5] group-hover:grayscale-0"
             />
           }
-          description="In this project, we monitor all tokens on Uniswap and Sushiswap. If a token had low trading volume in the last 30 days and suddenly sees a large transaction, we'll notify you immediately. It might be just a wake-up call or a full resurrection."
-          extendedDescription="TBD"
+          description="In this project, we monitor all tokens on Uniswap. If a token had low trading volume in the last 30 days and suddenly sees a large transaction, we'll notify you immediately. It might be just a wake-up call or a full resurrection."
+          extendedDescription={
+            <>
+              <Text>
+                In this project, we monitor all tokens on Uniswap and Sushiswap.
+                If a token had low trading volume in the last 30 days and
+                suddenly sees a large transaction, we&apos;ll notify you
+                immediately. It might be just a wake-up call or a full
+                resurrection. Either way, it&apos;s important info because such
+                awakenings can lead to huge price rallies, giving great profits
+                to those who see them first. And with us, you&apos;ll be one of
+                the first to know.
+              </Text>
+              <Text>
+                Of course, just like with the previous three projects, you have
+                free access to signals from the Ethereum blockchain on our
+                Telegram!
+              </Text>
+              <Text>
+                We wish you success and, as always, we&apos;d appreciate it if
+                you spread the word about us.
+              </Text>
+            </>
+          }
           primaryLink={{
             label: "Check out Telegram!",
             href: "#",
@@ -197,9 +219,8 @@ export const OurToolsSection = () => {
                 into 3 levels.
               </Text>
               <Text>
-                For Binance and Kucoin, Price Jump Categories are organized by
-                pairs with BTC and USDT, while on Uniswap, pairs are displayed
-                with wETH.
+                For Binance, Price Jump Categories are organized by pairs with
+                BTC and USDT, while on Uniswap, pairs are displayed with wETH.
               </Text>
               <Text>
                 Explore detailed descriptions, percentage thresholds, and more
@@ -235,9 +256,8 @@ export const OurToolsSection = () => {
                 into 3 levels.
               </Text>
               <Text>
-                For Binance and Kucoin, Price Jump Categories are organized by
-                pairs with BTC and USDT, while on Uniswap, pairs are displayed
-                with wETH.
+                For Binance, Price Jump Categories are organized by pairs with
+                BTC and USDT, while on Uniswap, pairs are displayed with wETH.
               </Text>
               <Text>
                 Explore detailed descriptions, percentage thresholds, and more
@@ -271,9 +291,9 @@ export const OurToolsSection = () => {
                 the starting point by the interval&apos;s end.
               </Text>
               <Text>
-                On Binance and Kucoin, High Amplitude Categories are categorized
-                by pairs with BTC and USDT, and on Uniswap, they&apos;re paired
-                with wETH.
+                On Binance, High Amplitude Categories are categorized by pairs
+                with BTC and USDT, and on Uniswap, they&apos;re paired with
+                wETH.
               </Text>
               <Text>
                 Gain deeper insights into these price changes across various
@@ -309,9 +329,9 @@ export const OurToolsSection = () => {
                 the starting point by the interval&apos;s end.
               </Text>
               <Text>
-                On Binance and Kucoin, High Amplitude Categories are categorized
-                by pairs with BTC and USDT, and on Uniswap, they&apos;re paired
-                with wETH.
+                On Binance, High Amplitude Categories are categorized by pairs
+                with BTC and USDT, and on Uniswap, they&apos;re paired with
+                wETH.
               </Text>
               <Text>
                 Gain deeper insights into these price changes across various
@@ -343,9 +363,8 @@ export const OurToolsSection = () => {
           extendedDescription={
             <>
               <Text>
-                For Binance and Kucoin, these categories are segmented into
-                pairs with BTC and USDT, while on Uniswap, they&apos;re paired
-                with wETH.
+                For Binance, these categories are segmented into pairs with BTC
+                and USDT, while on Uniswap, they&apos;re paired with wETH.
               </Text>
               <Text>
                 Explore how these price changes performed across different time
@@ -377,9 +396,8 @@ export const OurToolsSection = () => {
           extendedDescription={
             <>
               <Text>
-                For Binance and Kucoin, these categories are segmented into
-                pairs with BTC and USDT, while on Uniswap, they&apos;re paired
-                with wETH.
+                For Binance, these categories are segmented into pairs with BTC
+                and USDT, while on Uniswap, they&apos;re paired with wETH.
               </Text>
               <Text>
                 Explore how these price changes performed across different time

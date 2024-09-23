@@ -49,9 +49,9 @@ const config: Config = {
           dark: `${colors.fuchsia[950]}1A`,
         },
         textColor: {
-          light: colors.slate[300],
-          DEFAULT: colors.slate[400],
-          dark: colors.slate[500],
+          light: colors.slate[200],
+          DEFAULT: colors.slate[300],
+          dark: colors.slate[400],
         },
       },
       backgroundImage: {
