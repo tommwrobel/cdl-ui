@@ -106,7 +106,7 @@ export const OurToolsSection = () => {
           }
           primaryLink={{
             label: "Check out Telegram!",
-            href: "#",
+            href: "https://t.me/+Sqs9NzTcWOM4MzZk",
             icon: <TelegramIcon />,
           }}
           links={[
@@ -143,7 +143,7 @@ export const OurToolsSection = () => {
           }
           primaryLink={{
             label: "Check out Telegram!",
-            href: "#",
+            href: "https://t.me/+Sqs9NzTcWOM4MzZk",
             icon: <TelegramIcon />,
           }}
           links={[
@@ -181,7 +181,7 @@ export const OurToolsSection = () => {
           }
           primaryLink={{
             label: "Check out Telegram!",
-            href: "#",
+            href: "https://t.me/+Sqs9NzTcWOM4MzZk",
             icon: <TelegramIcon />,
           }}
           links={[

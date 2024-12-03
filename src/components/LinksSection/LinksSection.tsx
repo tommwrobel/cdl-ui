@@ -20,7 +20,7 @@ const links: Link[] = [
     icon: <img src="/images/cdl-logo.svg" className="w-6 h-6" />,
   },
   {
-    href: "#",
+    href: "https://t.me/+Sqs9NzTcWOM4MzZk",
     label: "CDL Telegram",
     icon: <img src="/images/cdl-logo.svg" className="w-6 h-6" />,
   },
