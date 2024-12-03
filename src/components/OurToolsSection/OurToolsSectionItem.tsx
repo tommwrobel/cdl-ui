@@ -28,7 +28,7 @@ type OurToolsSectionItemProps = HTMLAttributes<HTMLDivElement> & {
   description: React.ReactNode;
   links?: Link[];
   primaryLink?: PrimaryLink;
-  free?: boolean;
+  badge?: "free" | "soon";
   extendedDescription?: React.ReactNode;
 };
 
@@ -36,7 +36,7 @@ export const OurToolsSectionItem = ({
   icon,
   title,
   description,
-  free,
+  badge,
   links,
   children,
   className,
@@ -49,6 +49,11 @@ export const OurToolsSectionItem = ({
   const isInView = useInView(ref);
 
   const [isModalOpen, setIsModalOpen] = React.useState(false);
+
+  const badgeTextMap = {
+    free: "FREE",
+    soon: "SOON",
+  };
 
   useEffect(() => {
     if (isInView) {
@@ -78,10 +83,18 @@ export const OurToolsSectionItem = ({
           {...props}
         >
           <div className="flex items-center gap-2">
-            {free && (
+            {badge && (
               <div className="absolute top-0 right-0 flex items-center justify-center w-16 h-16">
-                <div className="top-0 right-0 px-12 py-1 opacity-50 rotate-45 bg-gradient-to-r from-primary to-secondary group-hover:opacity-100 duration-300">
-                  <Text className="text-sm font-bold text-white">FREE</Text>
+                <div
+                  className={cn(
+                    "top-0 right-0 px-12 py-1 opacity-50 rotate-45 bg-gradient-to-r from-primary to-secondary group-hover:opacity-100 duration-300",
+                    badge === "soon" &&
+                      "bg-gradient-to-r from-primary-700 to-primary-950"
+                  )}
+                >
+                  <Text className="text-sm font-bold text-white">
+                    {badgeTextMap[badge]}
+                  </Text>
                 </div>
               </div>
             )}
@@ -134,7 +147,13 @@ export const OurToolsSectionItem = ({
           onClose={() => setIsModalOpen(false)}
           title={title}
           content={extendedDescription}
-          actionButton={primaryLink && { label: primaryLink.label, href: primaryLink.href, icon: primaryLink.icon }}
+          actionButton={
+            primaryLink && {
+              label: primaryLink.label,
+              href: primaryLink.href,
+              icon: primaryLink.icon,
+            }
+          }
         />
       )}
     </>

@@ -25,8 +25,6 @@ export const OurToolsSection = () => {
     }
   }, [controls, isInView]);
 
-  const [isDialogOpen, setIsDialogOpen] = useState(false);
-
   return (
     <Section
       id="about"
@@ -38,6 +36,44 @@ export const OurToolsSection = () => {
         ref={ref}
         className="items-start mx-auto grid grid-cols-1 md:grid-cols-2 max-w-screen-xl gap-8 md:gap-12"
       >
+        <OurToolsSectionItem
+          title="CryptoWakeUps"
+          icon={
+            <img
+              src="/images/crypto-wake-ups-min.png"
+              className="rounded-full w-10 h-10 grayscale-[.5] group-hover:grayscale-0"
+            />
+          }
+          description="Imagine this: a token has been quiet for weeks on Uniswap, barely trading. Then suddenly—BAM!—a massive transaction (or even several) shakes it to life. We'll notify you instantly. It could be just a wake-up call or the start of a full resurrection."
+          extendedDescription={
+            <>
+              <Text>
+                Picture this: a token that&apos;s been dormant on Uniswap,
+                barely seeing any trades, suddenly springs to life with a
+                massive transaction. Is it a revival? The start of a meteoric
+                rally? At CryptoWakeUps, we track every token on Uniswap,
+                flagging sudden surges in activity after weeks of silence.
+                Whether it&apos;s a subtle ripple or a tidal wave, you&apos;ll
+                get the alert you need to act fast and seize the moment.
+              </Text>
+              <Text>
+                Why It Matters: These unexpected “wake-ups” often ignite
+                explosive price movements. Don&apos;t watch from the
+                sidelines—be the first to act and turn these opportunities into
+                real profits!
+              </Text>
+            </>
+          }
+          primaryLink={{
+            label: "Check out Telegram!",
+            href: "#",
+            icon: <TelegramIcon />,
+          }}
+          links={[
+            { label: "Telegram", href: "#", endIcon: <LuExternalLink /> },
+          ]}
+          badge="free"
+        />
         <OurToolsSectionItem
           title="CryptoRoiWhales"
           icon={
@@ -61,11 +97,10 @@ export const OurToolsSection = () => {
               </Text>
               <Text>
                 In a market flooded with noise and uncertainty, our platform
-                stands as a beacon of clarity and opportunity. Join our telegram
-                channel today and unlock a world of insights, all at your
-                fingertips, all for free. Don&apos;t miss out on the chance to
-                stay ahead of the curve and revolutionize your approach to
-                crypto trading.
+                stands as a beacon of clarity and opportunity. We&apos;re
+                launching soon! Don&apos;t miss your chance to be among the
+                first to gain access. Stay updated and be part of the revolution
+                in crypto trading.
               </Text>
             </>
           }
@@ -77,7 +112,7 @@ export const OurToolsSection = () => {
           links={[
             { label: "Telegram", href: "#", endIcon: <LuExternalLink /> },
           ]}
-          free
+          badge="soon"
         />
 
         <OurToolsSectionItem
@@ -94,16 +129,15 @@ export const OurToolsSection = () => {
               <Text>
                 Our system then tracks every transaction of these addresses so
                 you can see what the top cryptocurrency traders are buying and
-                selling! And the pest part is, we offer this service for free!
+                selling!
               </Text>
               <Text>
                 If you appreciate what we do, find it useful, and it helps you
                 in trading, you can support us by sharing, liking, or promoting
                 our project within crypto groups on platforms such as X,
                 Telegram, and Discord. We put a lot of effort into providing you
-                with the most up-to-date and useful information, and we give it
-                to you mostly for free. Your support helps us continue to
-                develop and offer you even more.
+                with the most up-to-date and useful information. Your support
+                helps us continue to develop and offer you even more.
               </Text>
             </>
           }
@@ -115,7 +149,7 @@ export const OurToolsSection = () => {
           links={[
             { label: "Telegram", href: "#", endIcon: <LuExternalLink /> },
           ]}
-          free
+          badge="soon"
         />
 
         <OurToolsSectionItem
@@ -135,9 +169,7 @@ export const OurToolsSection = () => {
                 (equivalent to over 1M USDT) or an address with excellent
                 performance (ROI over 1000%) invests in a niche token. I
                 don&apos;t think I need to explain the value of this
-                information. And, as always with us (no surprises here), you
-                have free access to signals from the Ethereum blockchain on our
-                Telegram!
+                information.
               </Text>
               <Text>
                 We wish you success! If you appreciate what we do, find it
@@ -155,50 +187,7 @@ export const OurToolsSection = () => {
           links={[
             { label: "Telegram", href: "#", endIcon: <LuExternalLink /> },
           ]}
-          free
-        />
-
-        <OurToolsSectionItem
-          title="CryptoWakeUps"
-          icon={
-            <img
-              src="/images/crypto-wake-ups-min.png"
-              className="rounded-full w-10 h-10 grayscale-[.5] group-hover:grayscale-0"
-            />
-          }
-          description="In this project, we monitor all tokens on Uniswap. If a token had low trading volume in the last 30 days and suddenly sees a large transaction, we'll notify you immediately. It might be just a wake-up call or a full resurrection."
-          extendedDescription={
-            <>
-              <Text>
-                In this project, we monitor all tokens on Uniswap and Sushiswap.
-                If a token had low trading volume in the last 30 days and
-                suddenly sees a large transaction, we&apos;ll notify you
-                immediately. It might be just a wake-up call or a full
-                resurrection. Either way, it&apos;s important info because such
-                awakenings can lead to huge price rallies, giving great profits
-                to those who see them first. And with us, you&apos;ll be one of
-                the first to know.
-              </Text>
-              <Text>
-                Of course, just like with the previous three projects, you have
-                free access to signals from the Ethereum blockchain on our
-                Telegram!
-              </Text>
-              <Text>
-                We wish you success and, as always, we&apos;d appreciate it if
-                you spread the word about us.
-              </Text>
-            </>
-          }
-          primaryLink={{
-            label: "Check out Telegram!",
-            href: "#",
-            icon: <TelegramIcon />,
-          }}
-          links={[
-            { label: "Telegram", href: "#", endIcon: <LuExternalLink /> },
-          ]}
-          free
+          badge="soon"
         />
       </div>
       <OurToolsDivider />
@@ -240,7 +229,7 @@ export const OurToolsSection = () => {
             href: "https://discord.gg/vznWRWs6hz",
             icon: <DiscordIcon />,
           }}
-          free
+          badge="free"
         />
 
         <OurToolsSectionItem
@@ -277,7 +266,7 @@ export const OurToolsSection = () => {
             href: "https://discord.gg/vznWRWs6hz",
             icon: <DiscordIcon />,
           }}
-          free
+          badge="free"
         />
 
         <OurToolsSectionItem
@@ -315,7 +304,7 @@ export const OurToolsSection = () => {
             href: "https://discord.gg/vznWRWs6hz",
             icon: <DiscordIcon />,
           }}
-          free
+          badge="free"
         />
 
         <OurToolsSectionItem
@@ -353,7 +342,7 @@ export const OurToolsSection = () => {
             href: "https://discord.gg/vznWRWs6hz",
             icon: <DiscordIcon />,
           }}
-          free
+          badge="free"
         />
 
         <OurToolsSectionItem
@@ -386,7 +375,7 @@ export const OurToolsSection = () => {
             href: "https://discord.gg/vznWRWs6hz",
             icon: <DiscordIcon />,
           }}
-          free
+          badge="free"
         />
 
         <OurToolsSectionItem
@@ -419,7 +408,7 @@ export const OurToolsSection = () => {
             href: "https://discord.gg/vznWRWs6hz",
             icon: <DiscordIcon />,
           }}
-          free
+          badge="free"
         />
 
         <OurToolsSectionItem
@@ -455,7 +444,7 @@ export const OurToolsSection = () => {
             href: "https://discord.gg/vznWRWs6hz",
             icon: <DiscordIcon />,
           }}
-          free
+          badge="free"
         />
 
         <OurToolsSectionItem
@@ -491,7 +480,7 @@ export const OurToolsSection = () => {
             href: "https://discord.gg/vznWRWs6hz",
             icon: <DiscordIcon />,
           }}
-          free
+          badge="free"
         />
 
         <MoreToolsItem />

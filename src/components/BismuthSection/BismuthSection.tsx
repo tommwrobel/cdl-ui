@@ -24,8 +24,8 @@ export const BismuthSection = () => {
             </SectionTitle>
             <Text className="text-center text-md md:text-left text-textColor-dark">
               Bismuth is an open-source protocol and a platform, created in the
-              world’s most popular and fastest growing programming language -
-              Python (approx. 10M programmers - potential base of Bismuth
+              world&apos;s most popular and fastest growing programming language
+              - Python (approx. 10M programmers - potential base of Bismuth
               blockchain apps creators).
             </Text>
             <Text className="text-center text-md md:text-left text-textColor-dark">
