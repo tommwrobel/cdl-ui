@@ -70,7 +70,11 @@ export const OurToolsSection = () => {
             icon: <TelegramIcon />,
           }}
           links={[
-            { label: "Telegram", href: "#", endIcon: <LuExternalLink /> },
+            {
+              label: "Telegram",
+              href: "https://t.me/CryptoWakeUps",
+              endIcon: <LuExternalLink />,
+            },
           ]}
           badge="free"
         />
@@ -450,7 +454,7 @@ export const OurToolsSection = () => {
         <OurToolsSectionItem
           icon={<img src="/images/cs-logo.png" className="w-10 h-10" />}
           title="Uniswap MACD"
-          description=" Analyze market trends with our MACD (Moving Average Convergence Divergence) category, providing insights into the latest movements of this crucial indicator."
+          description="Analyze market trends with our MACD (Moving Average Convergence Divergence) category, providing insights into the latest movements of this crucial indicator."
           extendedDescription={
             <>
               <Text>
